@@ -5,7 +5,7 @@ module.exports = {
   title: 'Sentry',
   tagline: 'A customizable Discord bot made to help you manage your server.',
   url: 'https://sentry.nziie.xyz',
-  baseUrl: '/',
+  baseUrl: '/sentry-docs-new/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
