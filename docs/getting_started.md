@@ -3,8 +3,8 @@ title: Getting Started
 description: Getting started with Benthos
 ---
 
-import { DiscordMessage, DiscordMessages } from '@discord-message-components/react'
-import '@discord-message-components/react/dist/style.css'
+import { DiscordMessage, DiscordMessages } from '@discord-message-components'
+import '@discord-message-components/dist/style.css'
 
 Woops! You fell for the marketing hype. Let's try and get through this together.
 
