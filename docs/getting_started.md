@@ -3,9 +3,6 @@ title: Getting Started
 description: Getting started with Benthos
 ---
 
-import { DiscordMessage, DiscordMessages } from '@discord-message-components'
-import '@discord-message-components/dist/style.css'
-
 Woops! You fell for the marketing hype. Let's try and get through this together.
 
 <div style={{textAlign: 'center'}}><img style={{maxWidth: '300px'}} src="/img/teacher-blob.svg" /></div>

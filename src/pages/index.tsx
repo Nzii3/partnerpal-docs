@@ -9,8 +9,7 @@ import styles from './index.module.css';
 import CodeBlock from "@theme/CodeBlock";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import { DiscordMessage, DiscordMessages } from '@discord-message-components';
-import '@discord-message-components/dist/style.css';
+
 
 const snippets = [
   {
@@ -268,13 +267,6 @@ function Home() {
                 <Tabs>
                     <TabItem value="Moderation">
                       Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
-                      <br />
-                      <br />
-                      <DiscordMessages>
-			                  <DiscordMessage bot author="Sentry" avatar="img/logo.png">
-				                  Hello, World!
-			                  </DiscordMessage>
-		                  </DiscordMessages>
                     </TabItem>
                 </Tabs>
             </div>
