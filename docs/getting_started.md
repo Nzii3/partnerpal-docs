@@ -9,12 +9,6 @@ Woops! You fell for the marketing hype. Let's try and get through this together.
 
 ## Install
 
-		<DiscordMessages>
-			<DiscordMessage>
-				Hello, World!
-			</DiscordMessage>
-		</DiscordMessages>
-
 The easiest way to install Benthos is with this handy script:
 
 import Tabs from '@theme/Tabs';
