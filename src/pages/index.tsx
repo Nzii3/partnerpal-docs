@@ -9,8 +9,8 @@ import styles from './index.module.css';
 import CodeBlock from "@theme/CodeBlock";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import { DiscordMessage, DiscordMessages } from '@discord-message-components/react'
-import '@discord-message-components/react/dist/style.css'
+import { DiscordMessage, DiscordMessages } from '@discord-message-components/react';
+import '@discord-message-components/react/dist/style.css';
 
 const snippets = [
   {
