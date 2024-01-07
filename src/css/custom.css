@@ -91,6 +91,10 @@ html[data-theme="dark"] {
   text-transform: capitalize;
 }
 
+ul.breadcrumbs li.breadcrumbs__item a.breadcrumbs__link {
+  text-transform: capitalize;
+}
+
 code {
   background-color: var(--ifm-code-background) !important;
   color: var(--ifm-code-color) !important;
