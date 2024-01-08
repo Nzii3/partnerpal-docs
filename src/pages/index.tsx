@@ -260,42 +260,21 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container">
-          <div className="row">
-            <div className={classnames(`${styles.pitch} col col--6`)}>
+        <div className="container text--center">
+            <div className={classnames(`${styles.pitch}`)}>
               <h2>Sentry's Features:</h2>
-                <Tabs>
+                <Tabs className="text--center">
                     <TabItem value="Moderation">
                       Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
                     </TabItem>
+                    <TabItem value="Custom Punishments">
+                    Through Custom Punishments, you can specify the actions Sentry should take when a member accumulates a specific set of warnings. Whether it involves muting, kicking, or banning a user based on warning levels, Sentry provides extensive customization choices tailored to your unique requirements.
+                  </TabItem>
                   <TabItem value="Applications">
                     Sentry's application introduces unique and unprecedented functionalities for designing, overseeing, and gauging user interactions within application systems. It offers various question formats, including multiple-choice options, yes/no responses, long text, short text, and more. Sentry empowers you with complete authority over application creation, allowing for extensive customization as per your needs.
                   </TabItem>
                 </Tabs>
             </div>
-            <div className={classnames('col col--6')}>
-                {snippets && snippets.length && (
-                  <section className={styles.configSnippets}>
-                    <Tabs defaultValue={snippets[0].label} values={snippets.map((props, idx) => {
-                      return {label:props.label, value:props.label};
-                    })}>
-                      {snippets.map((props, idx) => (
-                        <TabItem key={idx} value={props.label}>
-                          <div style={{position: 'relative'}}>
-                            <CodeBlock {...props}/>
-                            {props.further && <Link
-                              className={classnames(styles.furtherButton, 'button button--outline button--primary')}
-                              to={props.further}>
-                              Read about
-                            </Link>}
-                          </div>
-                        </TabItem>
-                      ))}
-                    </Tabs>
-                  </section>
-                )}
-            </div>
-          </div>
         </div>
         {features && features.length && (
           <section className={styles.features}>
