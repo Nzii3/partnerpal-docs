@@ -268,6 +268,9 @@ function Home() {
                     <TabItem value="Moderation">
                       Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
                     </TabItem>
+                  <TabItem value="Applications">
+                    Sentry's application introduces unique and unprecedented functionalities for designing, overseeing, and gauging user interactions within application systems. It offers various question formats, including multiple-choice options, yes/no responses, long text, short text, and more. Sentry empowers you with complete authority over application creation, allowing for extensive customization as per your needs.
+                  </TabItem>
                 </Tabs>
             </div>
             <div className={classnames('col col--6')}>
