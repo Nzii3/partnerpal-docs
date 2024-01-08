@@ -263,7 +263,7 @@ function Home() {
         <div className="container text--center">
             <div className={classnames(`${styles.pitch}`)}>
               <h2>Sentry's Features:</h2>
-                <Tabs className="text--center">
+                <Tabs className="tabs tabs--block">
                     <TabItem value="Moderation">
                       Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
                     </TabItem>
