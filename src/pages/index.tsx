@@ -12,138 +12,20 @@ import TabItem from '@theme/TabItem';
 import { DiscordMessage, DiscordMessages } from '@pycord/discord-message-components-react'
 import '@pycord/discord-message-components-react/dist/style.css'
 
-
-const snippets = [
-  {
-    label: 'Mapping',
-    further: '/docs/guides/bloblang/about',
-    language: 'yaml',
-    children: `input:
-  gcp_pubsub:
-    project: foo
-    subscription: bar
-
-pipeline:
-  processors:
-    - mapping: |
-        root.message = this
-        root.meta.link_count = this.links.length()
-        root.user.age = this.user.age.number()
-
-output:
-  redis_streams:
-    url: tcp://TODO:6379
-    stream: baz
-    max_in_flight: 20`,
-  },
-  {
-    label: 'Multiplexing',
-    further: '/docs/components/outputs/about#multiplexing-outputs',
-    language: 'yaml',
-    children: `input:
-  kafka:
-    addresses: [ TODO ]
-    topics: [ foo, bar ]
-    consumer_group: foogroup
-
-output:
-  switch:
-    cases:
-      - check: doc.tags.contains("AWS")
-        output:
-          aws_sqs:
-            url: https://sqs.us-west-2.amazonaws.com/TODO/TODO
-            max_in_flight: 20
-
-      - output:
-          redis_pubsub:
-            url: tcp://TODO:6379
-            channel: baz
-            max_in_flight: 20`,
-  },
-  {
-    label: 'Windowing',
-    further: '/docs/configuration/windowed_processing',
-    language: 'yaml',
-    children: `input:
-  nats_jetstream:
-    urls: [ nats://TODO:4222 ]
-    queue: myqueue
-    subject: traffic.light.events
-    deliver: all
-
-buffer:
-  system_window:
-    timestamp_mapping: root = this.created_at
-    size: 1h
-
-pipeline:
-  processors:
-    - group_by_value:
-        value: '\${! json("traffic_light_id") }'
-    - mapping: |
-        root = if batch_index() == 0 {
-          {
-            "traffic_light_id": this.traffic_light_id,
-            "created_at": @window_end_timestamp,
-            "total_cars": json("registration_plate").from_all().unique().length(),
-            "passengers": json("passengers").from_all().sum(),
-          }
-        } else { deleted() }
-
-output:
-  http_client:
-    url: https://example.com/traffic_data
-    verb: POST
-    max_in_flight: 64`,
-  },
-  {
-    label: 'Enrichments',
-    further: '/cookbooks/enrichments',
-    language: 'yaml',
-    children: `input:
-  mqtt:
-    urls: [ tcp://TODO:1883 ]
-    topics: [ foo ]
-
-pipeline:
-  processors:
-    - branch:
-        request_map: |
-          root.id = this.doc.id
-          root.content = this.doc.body
-        processors:
-          - aws_lambda:
-              function: sentiment_analysis
-        result_map: root.results.sentiment = this
-
-output:
-  aws_s3:
-    bucket: TODO
-    path: '\${! meta("partition") }/\${! timestamp_unix_nano() }.tar.gz'
-    batching:
-      count: 100
-      period: 10s
-      processors:
-        - archive:
-            format: tar
-        - compress:
-            algorithm: gzip`,
-  },
-];
-
 const features = [
   {
     title: 'Moderation',
-    imageUrl: 'img/Blobboring.svg',
+    imageUrl: 'img/tools-transparent.png',
     description: (
       <>
-        <p>
-          Benthos solves common data engineering tasks such as transformations, integrations, and multiplexing with declarative and <a href="/docs/configuration/unit_testing">unit testable</a> configuration. This allows you to easily and incrementally adapt your data pipelines as requirements change, letting you focus on the more exciting stuff.
-        </p>
-        <p>
-          It comes armed with a wide range of <a href="/docs/components/processors/about">processors</a>, a <a href="/docs/guides/bloblang/about">lit mapping language</a>, stateless <a href="/docs/configuration/windowed_processing">windowed processing capabilities</a> and an <a href="/blobfish">industry leading mascot</a>.
-        </p>
+        Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
+        <br/>
+        <br/>
+        <DiscordMessages>
+			                  <DiscordMessage bot author="Sentry" avatar="img/logo.png">
+				                  Hello, World!
+			                  </DiscordMessage>
+		                  </DiscordMessages>
       </>
     ),
   },
@@ -159,15 +41,6 @@ const features = [
           Working with disparate APIs and services can be a daunting task, doubly so in a streaming data context. With Benthos it's possible to break these tasks down and automatically parallelize them as <a href="/cookbooks/enrichments">a streaming workflow</a>.
         </p>
       </>
-    ),
-  },
-  {
-    description: (
-      <ReactPlayer
-        className={classnames('col col-6 padding--lg')}
-        url='https://youtu.be/uvbp2LCmQMY'
-        controls={true}
-      />
     ),
   },
   {
@@ -262,7 +135,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container">
+        {/* <div className="container">
             <div className={classnames(`${styles.pitch}`)}>
               <h1 className="text--center">Sentry's Features</h1>
                 <Tabs className="tabs tabs--block">
@@ -284,7 +157,7 @@ function Home() {
                   </TabItem>
                 </Tabs>
             </div>
-        </div>
+        </div> */}
         {features && features.length && (
           <section className={styles.features}>
             <div className="container margin-vert--md">
