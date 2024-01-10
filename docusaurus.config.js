@@ -104,13 +104,13 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Sentry Core Team`,
     },
-    announcementBar: {
-      id: 'star_the_dang_repo',
-      content: `<strong>Hey, 🫵 you, make sure you've <a target="_blank" rel="noopener noreferrer" href="https://github.com/benthosdev/benthos">⭐ starred the repo ⭐</a> otherwise you won't be entered into our daily prize draw for silent admiration.</strong>`,
-      backgroundColor: 'var(--ifm-color-primary)',
-      textColor: 'var(--ifm-background-color)',
-      isCloseable: true,
-    },
+    // announcementBar: {
+    //   id: 'star_the_dang_repo',
+    //   content: `<strong>Hey, 🫵 you, make sure you've <a target="_blank" rel="noopener noreferrer" href="https://github.com/benthosdev/benthos">⭐ starred the repo ⭐</a> otherwise you won't be entered into our daily prize draw for silent admiration.</strong>`,
+    //   backgroundColor: 'var(--ifm-color-primary)',
+    //   textColor: 'var(--ifm-background-color)',
+    //   isCloseable: true,
+    // },
   },
 
   presets: [
