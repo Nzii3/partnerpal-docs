@@ -9,6 +9,8 @@ import styles from './index.module.css';
 import CodeBlock from "@theme/CodeBlock";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import { DiscordMessage, DiscordMessages } from '@pycord/discord-message-components-react'
+import '@pycord/discord-message-components-react/dist/style.css'
 
 
 const snippets = [
@@ -132,7 +134,7 @@ output:
 
 const features = [
   {
-    title: 'Takes Care of the Dull Stuff',
+    title: 'Moderation',
     imageUrl: 'img/Blobboring.svg',
     description: (
       <>
@@ -260,12 +262,19 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container text--center">
+        <div className="container">
             <div className={classnames(`${styles.pitch}`)}>
-              <h2>Sentry's Features:</h2>
+              <h1 className="text--center">Sentry's Features</h1>
                 <Tabs className="tabs tabs--block">
                     <TabItem value="Moderation">
                       Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
+                      <br />
+                      <br />
+                      <DiscordMessages>
+			                  <DiscordMessage bot author="Sentry" avatar="img/logo.png">
+				                  Hello, World!
+			                  </DiscordMessage>
+		                  </DiscordMessages>
                     </TabItem>
                     <TabItem value="Custom Punishments">
                     Through Custom Punishments, you can specify the actions Sentry should take when a member accumulates a specific set of warnings. Whether it involves muting, kicking, or banning a user based on warning levels, Sentry provides extensive customization choices tailored to your unique requirements.

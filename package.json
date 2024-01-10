@@ -17,6 +17,7 @@
     "@algolia/client-search": "^4.17.0",
     "@docusaurus/core": "3.0.1",
     "@docusaurus/preset-classic": "3.0.1",
+    "@pycord/discord-message-components-react": "^0.3.2",
     "@types/node": "^18.15.13",
     "classnames": "^2.3.2",
     "react": "18",
