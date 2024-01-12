@@ -46,22 +46,22 @@
   margin: 40px 0;
 }
 
-.loveSection {
+.CallToActionSection {
   padding: 40px 0;
-  background-color: #602541;
+  background-color: #5865f2;
 
   --ifm-heading-color: #ffffff;
 }
 
-.loveSectionPlea {
+.CallToAction {
   text-align: center;
 }
 
-.loveImg {
+.CallToActionImg {
   height: 200px;
 }
 
-.sponsorsBox {
+.CallToActionBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

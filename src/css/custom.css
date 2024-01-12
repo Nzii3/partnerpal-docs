@@ -21,13 +21,13 @@
   --ifm-color-danger-lighter: #ff96b0;
   --ifm-color-danger-lightest: #ffcbd8;
 
-  --ifm-color-success: #a9dc76;
-  --ifm-color-success-dark: #98d55b;
-  --ifm-color-success-darker: #90d24e;
-  --ifm-color-success-darkest: #76bc30;
-  --ifm-color-success-light: #bae391;
-  --ifm-color-success-lighter: #c2e69e;
-  --ifm-color-success-lightest: #dcf1c7;
+  --ifm-color-success: 	#2ecc71;
+  --ifm-color-success-dark: 	#229a54;
+  --ifm-color-success-darker: #176e3c;
+  --ifm-color-success-darkest: #10502c;
+  --ifm-color-success-light: #35e67e;
+  --ifm-color-success-lighter: #42ef8a;
+  --ifm-color-success-lightest: #90ffbe;
 
   --ifm-color-info: #78dce8;
   --ifm-color-info-dark: #5ad4e3;
@@ -59,7 +59,7 @@
 }
 
 .footer.footer--dark {
-  --ifm-footer-background-color: #272822;
+  --ifm-footer-background-color: #17181a;
 }
 
 html[data-theme="dark"] {
@@ -85,6 +85,10 @@ html[data-theme="dark"] {
   --ifm-hero-text-color: #ffffff;
   --ifm-color-secondary: #f0f0f0;
   --ifm-blockquote-color: #c0c0c0;
+}
+
+.button {
+  color: #ffffff;
 }
 
 .menu__link--sublist {
@@ -173,4 +177,15 @@ html[data-theme='dark'] .DocSearch {
 
 .markdown > table td {
   min-width: 160px;
+}
+
+.discord-messages {
+  background-color: #1a1b1f !important;
+  border-color: #5865f2 !important;
+  border-radius: 5px !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.discord-message:hover {
+  background-color: #17181a !important;
 }
