@@ -95,9 +95,11 @@ html[data-theme="dark"] {
   text-transform: capitalize;
 }
 
-ul.breadcrumbs li.breadcrumbs__item a.breadcrumbs__link {
+ul.breadcrumbs li.breadcrumbs__item .breadcrumbs__link {
   text-transform: capitalize;
 }
+
+
 
 code {
   background-color: var(--ifm-code-background) !important;
