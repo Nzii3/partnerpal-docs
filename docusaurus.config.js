@@ -29,8 +29,9 @@ module.exports = {
     },
     image: 'img/logo.png',
     metadata: [
-      {name: 'keywords', content: 'benthos, stream processor, data engineering, ETL, ELT, event processor, go, golang'},
+      {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot'},
       {name: 'twitter:card', content: 'summary'},
+      {name: 'theme-color', content: '#5865f2'},
     ],
     navbar: {
       title: 'Sentry',
