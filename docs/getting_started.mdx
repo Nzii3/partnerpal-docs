@@ -1,0 +1,50 @@
+---
+title: Getting Started
+description: Getting started with Sentry.
+---
+
+## Setup
+Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
+
+
+
+## Permits (Permissions) {#permissions}
+Permits allow you to confidently manage permissions for specific roles. You can assign permissions to a permit and assign roles to said permit. 
+
+:::warning
+Sentry uses a strict permits only system for use of it's commands. Therefore, if a user has Discord permissions for a command (such as kick members), they will still need to have a role with a permit that has the kick members permission.
+
+> **Server administrators are the only users that bypass any permission.**
+:::
+
+
+### Configuring {#configuring-permits}
+1. Use the [!badge variant="primary" text="&gt;settings"] command and navigate to the `Permits` tab using the dropdown. 
+
+2. On the permits page, you will see all pre-defined levels of permits, their (customizable) assigned permissions, and their (customizable) assigned roles. Any role listed attached to a permit can use any command that requires the attached permisisons. The permissions should be pretty straight forward to what commands they relate to. 
+
+=== Permissions Key
+> *In order of how dangerous the permission can be in a server if given to the wrong person.*
+
+[!badge variant="info" text="Manage Cases"] --> [!badge variant="primary" text="&gt;case"] and [!badge variant="primary" text="&gt;cases"]. Can edit/delete cases.
+
+[!badge variant="info" text="Manage Appeals"] --> *Can accept, deny, and ignore appeals, full control over appeals. This permission is not used since the Appeals System is coming soon.*
+
+[!badge variant="info" text="Warn Members"] --> [!badge variant="primary" text="&gt;warn"], can use any severity
+
+[!badge variant="info" text="Mute Members"] --> [!badge variant="primary" text="&gt;mute"] and [!badge variant="primary" text="&gt;unmute"].
+
+[!badge variant="info" text="Kick Members"] --> [!badge variant="primary" text="&gt;kick"]
+
+[!badge variant="info" text="Ban Members"] --> [!badge variant="primary" text="&gt;ban"] and [!badge variant="primary" text="&gt;unban"]
+
+[!badge variant="info" text="Manage Lockdown"] --> [!badge variant="primary" text="&gt;lockdown"] (coming soon)
+
+[!badge variant="danger" text="Full Control"] --> *This is a dangerous to give, as they have full control over settings and all commands.*
+===
+
+---
+
+:::success 
+Your server is now setup with **Sentry**! If you would like to view Sentry's list of commands, you can do so on the 
+:::

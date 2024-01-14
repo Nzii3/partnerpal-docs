@@ -5,13 +5,13 @@
  */
 
 :root {
-  --ifm-color-primary: #3578e5;
-  --ifm-color-primary-dark: #1d68e1;
-  --ifm-color-primary-darker: #1b62d4;
-  --ifm-color-primary-darkest: #1751af;
-  --ifm-color-primary-light: #4e89e8;
-  --ifm-color-primary-lighter: #5a91ea;
-  --ifm-color-primary-lightest: #80aaef;
+  --ifm-color-primary: #5865f2;
+  --ifm-color-primary-dark: #4554f7;
+  --ifm-color-primary-darker: #3d4cf7;
+  --ifm-color-primary-darkest: #3646f5;
+  --ifm-color-primary-light: #616ef8;
+  --ifm-color-primary-lighter: #6d79fc;
+  --ifm-color-primary-lightest: #7b86fa;
 
   --ifm-color-danger: #ff6188;
   --ifm-color-danger-dark: #ff3e6d;
@@ -45,46 +45,23 @@
   --ifm-color-warning-lighter: #ffe69c;
   --ifm-color-warning-lightest: #fff3d1;
 
-  --ifm-navbar-background-color: #f9f9f9;
-  --ifm-background-surface-color: #f9f9f9;
-  --ifm-background-surface-color-secondary: #f3f3f3;
-  --ifm-background-color: #ffffff;
-
-  --ifm-heading-color: #000000;
-  --ifm-hero-text-color: #000000;
-  --ifm-blockquote-color: #3c3c3c;
-  --ifm-alert-color: #000000;
-
-  --ifm-code-font-size: 95%;
-}
-
-.footer.footer--dark {
-  --ifm-footer-background-color: #17181a;
-}
-
-html[data-theme="dark"] {
-  --ifm-color-primary: #5865f2;
-  --ifm-color-primary-dark: #4554f7;
-  --ifm-color-primary-darker: #3d4cf7;
-  --ifm-color-primary-darkest: #3646f5;
-  --ifm-color-primary-light: #616ef8;
-  --ifm-color-primary-lighter: #6d79fc;
-  --ifm-color-primary-lightest: #7b86fa;
-
   --ifm-background-color: #17181a;
   --ifm-background-surface-color: #17181a;
   --ifm-background-surface-color-secondary: #17181a;
   --ifm-navbar-background-color: #23272a;
 
-  --ifm-code-background: #2e2f28;
-  --ifm-code-color: #ffffff;
-
-  background-color: #1a1b1f;
-
   --ifm-heading-color: #ffffff;
   --ifm-hero-text-color: #ffffff;
   --ifm-color-secondary: #f0f0f0;
   --ifm-blockquote-color: #c0c0c0;
+
+  --ifm-code-background: #2e2f28;
+  --ifm-code-color: #ffffff;
+  --ifm-code-font-size: 95%;
+}
+
+.footer.footer--dark {
+  --ifm-footer-background-color: #17181a;
 }
 
 .button {
@@ -190,4 +167,95 @@ html[data-theme='dark'] .DocSearch {
 
 .discord-message:hover {
   background-color: #17181a !important;
+}
+
+/* Sidebar Method labels */
+.status > .menu__link {
+  align-items: center;
+  justify-content: start;
+}
+
+.status > .menu__link::after {
+  width: 45px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  margin-left: 0.5rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.new > .menu__link::after {
+  content: "new";
+  color: #ffffff;
+  border-color: var(--ifm-color-primary-darker);
+}
+
+.beta > .menu__link::after {
+  content: "beta";
+  color: #ffffff;
+  border-color: var(--ifm-color-info);
+}
+
+code {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  border-radius: 3px !important;
+}
+
+.box {
+  display: inline-block;
+  border: 1.80px solid rgba(0, 0, 0, 0.589);
+  padding-top: 0.75rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: rgba(41,43,47,255);
+  border-radius: 5px;
+  margin-bottom: 0.25rem;
+  margin-top: 0.75rem;
+  .title {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+}
+
+.box.no-background {
+  background-color: inherit;
+}
+
+.box.animation {
+  transition: all 0.5s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: black 0px 5px 15px;
+  }
+}
+
+.box.shadow {
+  box-shadow: black 0px 5px 15px;
+}
+
+.box.blurple {
+  border: 1.75px solid #5865f2;
+}
+
+.box.red {
+  border: 1.75px solid #e74c3c;
+}
+
+.box.green {
+  border: 1.75px solid #2ecc71;
+}
+
+.box.yellow {
+  border: 1.75px solid #fee65c;
+}
+
+.box.blue {
+  border: 1.75px solid #1c97da;
 }
