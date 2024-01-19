@@ -4,10 +4,20 @@ description: Getting started with Sentry.
 sidebar_class_name: status new
 ---
 
+import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react/dist/index.js";
+
 ## Setup
 Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
 
-
+<DiscordMessages>
+	<DiscordMessage>Hey guys, I'm new here! Glad to be able to join you all!</DiscordMessage>
+	<DiscordMessage author="Dawn" avatar="red">
+		Hi, I'm new here too!
+	</DiscordMessage>
+	<DiscordMessage author="Sanctuary" avatar="https://i.imgur.com/0TeacfY.png" roleColor="#0099ff">
+		Hey, <DiscordMention>User</DiscordMention> and <DiscordMention>Dawn</DiscordMention>. Welcome to our server!
+	</DiscordMessage>
+</DiscordMessages>
 
 ## Permits (Permissions) {#permissions}
 Permits allow you to confidently manage permissions for specific roles. You can assign permissions to a permit and assign roles to said permit. 
