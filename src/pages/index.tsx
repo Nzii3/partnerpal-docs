@@ -9,8 +9,6 @@ import styles from './index.module.css';
 import CodeBlock from "@theme/CodeBlock";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import { DiscordMessage, DiscordMessages } from '@pycord/discord-message-components-react'
-import '@pycord/discord-message-components-react/dist/style.css'
 
 const features = [
   {
@@ -21,11 +19,7 @@ const features = [
         Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
         <br/>
         <br/>
-        <DiscordMessages>
-			    <DiscordMessage bot author="Sentry" avatar="img/logo.png">
-				    Hello, World!
-			    </DiscordMessage>
-		    </DiscordMessages>
+        
       </>
     ),
   },
@@ -37,11 +31,6 @@ const features = [
         Through Custom Punishments, you can specify the actions Sentry should take when a member accumulates a specific set of warnings. Whether it involves muting, kicking, or banning a user based on warning levels, Sentry provides extensive customization choices tailored to your unique requirements.
         <br/>
         <br/>
-        <DiscordMessages>
-			    <DiscordMessage bot author="Sentry" avatar="img/logo.png">
-				    Hello, World!
-			    </DiscordMessage>
-		    </DiscordMessages>
       </>
     ),
   },
@@ -53,11 +42,6 @@ const features = [
         Sentry's application introduces unique and unprecedented functionalities for designing, overseeing, and gauging user interactions within application systems. It offers various question formats, including multiple-choice options, yes/no responses, long text, short text, and more. Sentry empowers you with complete authority over application creation, allowing for extensive customization as per your needs.
         <br/>
         <br/>
-        <DiscordMessages>
-			    <DiscordMessage bot author="Sentry" avatar="img/logo.png">
-				    Hello, World!
-			    </DiscordMessage>
-		    </DiscordMessages>
       </>
     ),
   },
@@ -69,11 +53,6 @@ const features = [
         Utilizing Sentry's robust permissions system, you can guarantee that the appropriate members in your server are granted access to the commands you deem suitable for their use. Permits provide bot-specific permissions to roles of your choice.
         <br/>
         <br/>
-        <DiscordMessages>
-			    <DiscordMessage bot author="Sentry" avatar="img/logo.png">
-				    Hello, World!
-			    </DiscordMessage>
-		    </DiscordMessages>
       </>
     ),
   },
