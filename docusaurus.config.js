@@ -29,7 +29,7 @@ module.exports = {
     },
     image: 'img/logo.png',
     metadata: [
-      {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot'},
+      {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot, application bot, modmail bot, discord modmail'},
       {name: 'twitter:card', content: 'summary'},
       {name: 'theme-color', content: '#5865f2'},
     ],
@@ -40,16 +40,10 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        {to: 'docs/about', label: 'Docs', position: 'left'},
+        {to: 'getting-started', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'community', label: '⭐ Premium', position: 'right'},
+        {to: 'premium', label: 'Premium', position: 'right'},
         {to: 'support', label: 'Support', position: 'right'},
-        {
-          href: 'https://github.com/benthosdev/benthos/releases/latest',
-          position: 'right',
-          className: 'header-download-link header-icon-link',
-          'aria-label': 'Discord',
-        },
       ],
     },
     footer: {
@@ -64,41 +58,7 @@ module.exports = {
             },
             {
               label: 'Documentation',
-              to: 'docs/guides/getting_started',
-            },
-            {
-              label: 'Videos',
-              to: 'videos',
-            },
-          ],
-        },
-        {
-          title: 'Swag',
-          items: [
-            {
-              label: 'Meet the Mascot',
-              to: 'blobfish',
-            },
-            {
-              label: 'Purchase Stickers',
-              href: 'https://www.redbubble.com/people/earzola/shop',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Join the chat',
-              to: 'community',
-            },
-            {
-              label: 'See the Code',
-              href: 'https://github.com/benthosdev/benthos',
-            },
-            {
-              label: 'Sponsor the Developers',
-              href: 'https://github.com/sponsors/Jeffail',
+              to: 'getting-started',
             },
           ],
         },
