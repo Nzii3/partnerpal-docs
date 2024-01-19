@@ -10,12 +10,8 @@ import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-c
 Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
 
 <DiscordMessages>
-	<DiscordMessage>Hey guys, I'm new here! Glad to be able to join you all!</DiscordMessage>
-	<DiscordMessage author="Dawn" avatar="red">
-		Hi, I'm new here too!
-	</DiscordMessage>
-	<DiscordMessage author="Sanctuary" avatar="https://i.imgur.com/0TeacfY.png" roleColor="#0099ff">
-		Hey, <DiscordMention>User</DiscordMention> and <DiscordMention>Dawn</DiscordMention>. Welcome to our server!
+	<DiscordMessage author="Sentry" avatar="https://r.nziie.xyz/sentry-logo" roleColor="#5865f2" bot verified>
+		Hello! I'm <DiscordMention>Sentry</DiscordMention>!
 	</DiscordMessage>
 </DiscordMessages>
 
