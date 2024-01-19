@@ -18,7 +18,6 @@
     "@docusaurus/core": "3.0.1",
     "@docusaurus/plugin-client-redirects": "^3.1.0",
     "@docusaurus/preset-classic": "3.0.1",
-    "@pycord/discord-message-components-react": "^0.3.2",
     "@skyra/discord-components-core": "^3.6.1",
     "@skyra/discord-components-react": "^3.6.1",
     "@types/node": "^18.15.13",
