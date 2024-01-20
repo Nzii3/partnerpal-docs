@@ -1,65 +1,94 @@
 import React from 'react';
 
+import styles from './support.module.css';
+import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
-import classnames from 'classnames';
-import styles from './support.module.css';
-import Admonition from '@theme/Admonition';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-function Support() {
+function Community() {
+  const context = useDocusaurusContext();
+
   return (
-    <Layout title="Support" description="How to get Sentry support">
-      <header className={classnames('hero', styles.heroBanner)}>
-        <div className="container">
-          <div className="row">
-            <div className={classnames('col col--5 col--offset-1')}>
-              <h1 className="hero__title">Sentry Support</h1>
-              <p className="hero__subtitle">When Benthos hands you lemons this page lists people to angrily throw them at.</p>
-            </div>
-            <div className={classnames('col col--5')}>
-              <img className={styles.heroImg} src="img/logo-yellow.png" />
-            </div>
+    <Layout title="Support" description="Where to ask questions and find your soul mate">
+      <header className="hero">
+        <div className="container text--center">
+          <h1>Support</h1>
+          <div className="hero--subtitle">
+          <p>
+                Sentry offers a community and support staff ready to help with any questions, bugs, or feature requests. Give our <a href="https://r.nziie.xyz/sentry-support">support server</a> a shot for assistance. For inquries that may need faster and quicker attention (such as <strong>premium</strong>), feel free to create a ticket in the <code>#premium</code> channel. Support tickets are <strong>only for premium inquries!</strong>
+                </p>
           </div>
+          <img className={styles.headerImg} src="img/logo-yellow.png" />
         </div>
       </header>
       <main>
-        <section>
-          <div className="container container-narrow padding-top--lg">
-            <div className="row margin-bottom--lg">
-              <div className="col col--12">
-                <p>
-                Sentry offers a community and support staff ready to help with any questions, bugs, or feature requests. Give our <a href="https://r.nziie.xyz/sentry-support">support server</a> a shot for assistance. For inquries that may need faster and quicker attention (such as <strong>premium</strong>), feel free to create a ticket in the <code>#premium</code> channel.
-                </p>
-                <Admonition type="warning">
-                  <p>Support tickets are <strong>only</strong> for <strong>premium inquries</strong>, this includes redeeming premium and renewing premium for your server(s).</p>
-                </Admonition>
+        <div className="container">
+          <div className="row margin-vert--lg">
+            <div className="col text--center padding-vert--md">
+              <div className="card">
+                <div className="card__header">
+                  <i className={classnames(styles.icon, styles.discord)}></i>
+                </div>
+                <div className="card__body">
+                  <p>Join the official Benthos discord server</p>
+                </div>
+                <div className="card__footer">
+                  <Link to="https://discord.gg/6VaWjzP" className="button button--outline button--primary button--block">Join</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col text--center padding-vert--md">
+              <div className="card">
+                <div className="card__header">
+                  <i className={classnames(styles.icon, styles.twitter)}></i>
+                </div>
+                <div className="card__body">
+                  <p>Aggressively &#64;mention Ash on Twitter</p>
+                </div>
+                <div className="card__footer">
+                  <Link to="https://twitter.com/jeffail" className="button button--outline button--primary button--block">Follow &#64;Jeffail</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col text--center padding-vert--md">
+              <div className="card">
+                <div className="card__header">
+                  <i className={classnames(styles.icon, styles.slack)}></i>
+                </div>
+                <div className="card__body">
+                  <p>Join us on the &#35;benthos channel in the Gophers slack</p>
+                </div>
+                <div className="card__footer">
+                  <Link to="https://invite.slack.golangbridge.org/" className="button button--outline button--success button--block">Get an invite</Link>
+                </div>
+                <div className="card__footer">
+                  <Link to="https://app.slack.com/client/T029RQSE6/CLWCBK7FY" className="button button--outline button--primary button--block">Open</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col text--center padding-vert--md">
+              <div className="card">
+                <div className="card__header">
+                  <i className={classnames(styles.icon, styles.email)}></i>
+                </div>
+                <div className="card__body">
+                  <p>For sensitive or security related queries pop us an email</p>
+                </div>
+                <div className="card__footer">
+                  <Link to="mailto:hello@benthos.dev" className="button button--outline button--primary button--block">hello&#64;benthos.dev</Link>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <section>
-          <div className="container container-narrow padding-bottom--lg">
-            <div className="row margin-bottom--lg">
-              <div className="col col--12">
-                <h3>Provide Context</h3>
-                <p>
-Things that a typical community member cannot do include mind-reading, assuming control of your PC (I hope) and time travelling into the past in order to obtain context of the problem on your behalf. In order to work around these limitations please make sure that when you are asking us for help regarding a problem you've had that at the very least you are able to give us any error messages/logs that were emitted by Benthos when it happened.
-                </p>
-                <h3>Never Direct Message</h3>
-                <p>
-Unless you are explicitly instructed to do so please never direct message maintainers or community members for support, and avoid directly pinging them. If you aren't receiving responses in a public support channel it is because they currently do not have time to address your issue, please be patient or consider a <a href="#paid-services">paid support option instead</a>. Direct messages only serve to add extra pressure on volunteers, and answering questions via direct messages denies other users the opportunity to read the answers for themselves.
-                </p>
-                <p>
-If there is sensitive information within your question that you do not want to expose publicly then please take the time to scrub that information from the material you are sharing.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </main>
     </Layout>
   );
 }
 
-export default Support;
+export default Community;
