@@ -30,10 +30,15 @@ Sentry uses a strict permits only system for use of it's commands. Therefore, if
 
 2. On the permits page, you will see all pre-defined levels of permits, their (customizable) assigned permissions, and their (customizable) assigned roles. Any role listed attached to a permit can use any command that requires the attached permisisons. The permissions should be pretty straight forward to what commands they relate to. 
 
-=== Permissions Key
-> *In order of how dangerous the permission can be in a server if given to the wrong person.*
+<details className="customdetails">
+<summary>🔑 Permissions Key</summary>
 
-**Manage Cases** --> `>case` and [!badge variant="primary" text="&gt;cases"]. Can edit/delete cases.
+
+:::info
+In order of how dangerous the permission can be in a server if given to the wrong person.
+:::
+
+**Manage Cases** --> `>case` and `>cases`. Can edit/delete cases.
 
 **Manage Appeals** --> *Can accept, deny, and ignore appeals, full control over appeals. This permission is not used since the Appeals System is coming soon.*
 
@@ -44,10 +49,12 @@ Sentry uses a strict permits only system for use of it's commands. Therefore, if
 **Kick Members** --> `>kick`
 
 **Ban Members** --> `>ban` and `>unban`
-[!badge variant="info" text="Manage Lockdown"] --> [!badge variant="primary" text="&gt;lockdown"] (coming soon)
+
+**Manage Lockdown** --> `>lockdown` (coming soon)
 
 **Full Control** --> *This is a dangerous to give, as they have full control over settings and all commands.*
-===
+
+</details>
 
 ---
 

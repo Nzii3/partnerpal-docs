@@ -76,7 +76,11 @@ ul.breadcrumbs li.breadcrumbs__item .breadcrumbs__link {
   text-transform: capitalize;
 }
 
-
+details.customdetails {
+  --docusaurus-details-decoration-color: #5865f2;
+  background-color: inherit;
+  border-color: #5865f2;
+}
 
 code {
   background-color: var(--ifm-code-background) !important;
