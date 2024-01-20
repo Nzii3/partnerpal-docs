@@ -6,6 +6,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
+import DefaultLayout from "../layouts/DefaultLayout";
 
 const features = [
   {
@@ -80,9 +81,10 @@ function Home() {
   const context = useDocusaurusContext();
   const siteConfig = context.siteConfig;
   return (
-    <Layout
+    <DefaultLayout
       title={`${siteConfig.title}`}
       description={`${siteConfig.tagline}`}>
+        
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
@@ -167,7 +169,7 @@ function Home() {
           </div>
         </section>
       </main>
-    </Layout>
+    </DefaultLayout>
   );
 }
 

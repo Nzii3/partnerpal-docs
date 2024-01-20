@@ -4,8 +4,10 @@ title: Flags
 
 import Link from '@docusaurus/Link';
 import classnames from 'classnames';
+import Badge from 'react-bootstrap/Badge';
 
 # Command Argument Flags
+<Badge bg="primary">New</Badge>
 
 Sentry employs argument flags for precise argument slicing without truncating content. This manual includes explanations for each flag, it's acceptable inputs, and instructions on usage. In the event of a missing required flag for a command, the bot will prompt you to supply it in the usage before proceeding with the command's execution.
 
