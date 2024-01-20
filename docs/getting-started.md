@@ -1,7 +1,6 @@
 ---
 title: Getting Started
 description: Getting started with Sentry.
-sidebar_class_name: status new
 ---
 
 import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";
@@ -11,7 +10,7 @@ Use the `>setup` command command to have an easy setup solution. Sentry will mak
 
 <DiscordMessages>
 	<DiscordMessage author="Sentry" avatar="https://r.nziie.xyz/sentry-logo" roleColor="#5865f2" bot verified>
-		Hello! I'm <DiscordMention>Sentry</DiscordMention>!
+		Hello, I'm <DiscordMention>Sentry</DiscordMention>! I am verified by Discord. :smile:
 	</DiscordMessage>
 </DiscordMessages>
 
