@@ -1,7 +1,6 @@
 ---
 title: Getting Started
 description: Getting started with Sentry.
-sidebar_class_name: status new
 ---
 
 import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";
