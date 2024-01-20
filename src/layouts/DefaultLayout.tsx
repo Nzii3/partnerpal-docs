@@ -22,7 +22,7 @@ const DefaultLayout: React.FC<DefaultLayoutProps> = ({ title, description, child
                 <meta name="description" content={ description } />
                 <meta property="og:description" content={ description } />
                 <meta property="og:title" content={ title } />
-                <meta property="og:image" content="/img/banner.jpg"/>
+                <meta property="og:image" content="https://r.nziie.xyz/sentry-banner"/>
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name="theme-color" content="#5865f2" />
             </Head>
