@@ -1,5 +1,5 @@
 ---
-title: Advertisement Moderation
+title: ⚠️ Advertisement Moderation
 ---
 # Advertisement Moderation
 

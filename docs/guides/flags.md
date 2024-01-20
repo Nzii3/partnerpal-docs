@@ -1,5 +1,5 @@
 ---
-title: Flags
+title: 🚩 Flags
 ---
 
 import Link from '@docusaurus/Link';

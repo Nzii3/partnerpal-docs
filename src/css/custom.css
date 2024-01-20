@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+ @import '@fortawesome/fontawesome-free/css/all.css';
+
 :root {
   --ifm-color-primary: #5865f2;
   --ifm-color-primary-dark: #4554f7;
@@ -226,6 +228,26 @@ html[data-theme='dark'] .DocSearch {
   content: "beta";
   color: #ffffff;
   border-color: var(--ifm-color-info);
+}
+
+.icon > .menu__link {
+  align-items: center;
+  justify-content: start;
+}
+
+.icon > .menu__link::before {
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+.gettingstarted > .menu__link::before {
+  content: '';
+  filter: invert(82%) sepia(100%) saturate(25%) hue-rotate(61deg) brightness(107%) contrast(107%);
+  display: inline-block;
+  width: 1rem; /* Adjust the width and height as needed */
+  height: 1rem;
+  background-image: url("../../static/img/book.svg");
+  background-repeat: no-repeat;
 }
 
 .discord-messages {

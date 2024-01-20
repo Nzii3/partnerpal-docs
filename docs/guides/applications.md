@@ -1,5 +1,5 @@
 ---
-title: Applications
+title: 📋 Applications
 sidebar_class_name: status new
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Modmail
+title: ✉️ Modmail
 sidebar_class_name: status beta
 ---
 import Link from '@docusaurus/Link';
