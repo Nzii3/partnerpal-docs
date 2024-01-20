@@ -47,7 +47,7 @@
 
   --ifm-background-color: #17181a !important;
   --ifm-background-surface-color: #17181a !important;
-  --ifm-background-surface-color-secondary: #17181a !important;
+  --ifm-background-surface-color-secondary: #1b1d1f !important;
   --ifm-navbar-background-color: #23272a;
 
   --ifm-heading-color: #ffffff;
@@ -66,6 +66,10 @@
 
 .button {
   color: #ffffff;
+}
+
+.card {
+  background-color: var(--ifm-background-surface-color-secondary);
 }
 
 .menu__link--sublist {
