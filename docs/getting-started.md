@@ -33,7 +33,6 @@ Sentry uses a strict permits only system for use of it's commands. Therefore, if
 <details className="customdetails">
 <summary>🔑 Permissions Key</summary>
 
-
 :::info
 In order of how dangerous the permission can be in a server if given to the wrong person.
 :::
