@@ -68,8 +68,11 @@
   --ifm-button-color: white;
   --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
   --ifm-button-background-color: transparent;
-
 }
+
+:where(.button--dark):focus {
+  --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
+} 
 
 .footer.footer--dark {
   --ifm-footer-background-color: #17181a;
