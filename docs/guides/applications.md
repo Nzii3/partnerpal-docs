@@ -2,7 +2,7 @@
 title: Applications
 ---
 
-import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";
+import { DiscordMessages, DiscordMessage, DiscordMention, DiscordEmbed, DiscordEmbedField, DiscordEmbedFields, DiscordEmbedDescription, DiscordEmbedFooter,} from "@skyra/discord-components-react";
 
 # Applications
 Sentry's application introduces unique and unprecedented functionalities for designing, overseeing, and gauging user interactions within application systems. It offers **various question formats**, including **multiple-choice options**, **yes/no responses**, **long text**, **short text**, and more. Sentry empowers you with complete authority over application creation, allowing for extensive customization as per your needs.
@@ -22,6 +22,13 @@ Usage   | Description | Aliases | Has slash command?
 	<DiscordMessage>
 		&gt;apply Moderation Team
 	</DiscordMessage>
+  <DiscordMessage author="Sentry" avatar="https://r.nziie.xyz/sentry-logo" bot verified>
+    <DiscordEmbed slot="embeds" color="#5865f2">
+      <DiscordEmbedDescription slot="description">
+        Application process has started in your direct messages.
+      </DiscordEmbedDescription>
+      </DiscordEmbed>
+  </DiscordMessage>
 </DiscordMessages>
 
 ## Question Types
