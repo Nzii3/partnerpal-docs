@@ -6,9 +6,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
-import CodeBlock from "@theme/CodeBlock";
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 const features = [
   {
@@ -16,7 +13,7 @@ const features = [
     imageUrl: 'img/tools-transparent.png',
     description: (
       <>
-        Sentry's customizable moderation system gives you all the power you need to moderate your server, or allow other moderators to do so seamlessly.
+        Sentry's incredibly adaptable moderation system not only empowers you with a comprehensive set of tools but also bestows upon you the highest degree of control in effectively administering your Discord server. Whether you choose to personally supervise moderation or delegate this task to specifically appointed moderators, Sentry guarantees a seamlessly efficient moderation experience, contributing to the optimal management of your server.
         <br/>
         <br/>
         
