@@ -92,9 +92,17 @@ details.customdetails {
   padding: 10px;
 }
 
+.discord-embed .discord-embed-wrapper .discord-embed-grid {
+  padding-bottom: 0 !important;
+}
+
 code {
   background-color: var(--ifm-code-background) !important;
   color: var(--ifm-code-color) !important;
+}
+
+span p {
+  margin:0 !important;
 }
 
 a > code {
