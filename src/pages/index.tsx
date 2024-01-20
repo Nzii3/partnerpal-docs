@@ -157,6 +157,7 @@ function Home() {
                     <img className={styles.CallToActionImg} src="img/logo.png" alt="Sentry Logo" />
                   </a>
                 </div>
+                <br/>
                 <Link
                   className={classnames(
                     'button button--dark button--lg'

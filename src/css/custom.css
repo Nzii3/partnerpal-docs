@@ -66,6 +66,8 @@
 
 :where(.button--dark):hover {
   --ifm-button-color: white;
+  --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
+  --ifm-button-background-color: transparent;
 
 }
 
