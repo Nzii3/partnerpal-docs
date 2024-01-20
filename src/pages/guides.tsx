@@ -6,7 +6,7 @@ const RedirectPage: React.FC = () => {
   return (
     <div>
       {/* Include the RedirectComponent for automatic redirection */}
-      <RedirectComponent url="https://r.nziie.xyz/sentry-support"/>
+      <RedirectComponent url={useBaseUrl("category/guides")}/>
     </div>
   );
 };

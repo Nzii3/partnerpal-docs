@@ -32,6 +32,7 @@ module.exports = {
       {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot, application bot, modmail bot, discord modmail'},
       {name: 'twitter:card', content: 'summary'},
       {name: 'theme-color', content: '#5865f2'},
+      {name: 'og:image', content: 'https://r.nziie.xyz/sentry-banner'}
     ],
     navbar: {
       title: 'Sentry',

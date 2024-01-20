@@ -153,15 +153,13 @@ function Home() {
             <div className="row">
               <div className={classnames('center', styles.CallToAction)}>
                 <div>
-                  <a href="https://r.nziie.xyz/sentry-invite">
-                    <img className={styles.CallToActionImg} src="img/logo.png" alt="Sentry Logo" />
-                  </a>
+                  <img className={styles.CallToActionImg} src="img/logo.png" alt="Sentry Logo" />
                 </div>
                 <Link
                   className={classnames(
                     'button button--dark button--lg'
                   )}
-                  to="https://r.nziie.xyz/sentry-invite">
+                  to="invite">
                   Invite
                 </Link>
               </div>
