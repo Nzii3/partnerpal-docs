@@ -92,8 +92,7 @@ function Home() {
               <div className={styles.buttons}>
                 <Link
                   className={classnames(
-                    'button button--outline button--primary button--lg',
-                    styles.getStarted,
+                    'button button--outline button--primary button--lg'
                   )}
                   to={useBaseUrl('/getting-started')}>
                   Get Started
@@ -107,7 +106,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <hr style={{'background-color': '#5865f2'}}/>
+        <hr style={{'backgroundColor': '#5865f2'}}/>
         {/* <div className="container">
             <div className={classnames(`${styles.pitch}`)}>
               <h1 className="text--center">Sentry's Features</h1>
@@ -157,9 +156,11 @@ function Home() {
                   </a>
                 </div>
                 <Link
-                  className={classnames('button button--outline button--primary button--lg')}
+                  className={classnames(
+                    'button button--outline button--secondary button--lg'
+                  )}
                   to="https://r.nziie.xyz/sentry-invite">
-                  Invite Sentry
+                  Invite
                 </Link>
               </div>
             </div>
