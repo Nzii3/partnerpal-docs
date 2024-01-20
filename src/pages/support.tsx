@@ -8,17 +8,16 @@ import styles from './support.module.css';
 
 function Support() {
   return (
-    <Layout title="Support" description="How to get Benthos support">
+    <Layout title="Support" description="How to get Sentry support">
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
             <div className={classnames('col col--5 col--offset-1')}>
-              <h1 className="hero__title">Benthos Support</h1>
+              <h1 className="hero__title">Sentry Support</h1>
               <p className="hero__subtitle">When Benthos hands you lemons this page lists people to angrily throw them at.</p>
-              <small>(That was just a metaphor - lemons not provided)</small>
             </div>
             <div className={classnames('col col--5')}>
-              <img className={styles.heroImg} src="/img/blobheart.svg" />
+              <img className={styles.heroImg} src="img/logo-yellow.png" />
             </div>
           </div>
         </div>
