@@ -45,9 +45,9 @@
   --ifm-color-warning-lighter: #ffe69c;
   --ifm-color-warning-lightest: #fff3d1;
 
-  --ifm-background-color: #17181a;
-  --ifm-background-surface-color: #17181a;
-  --ifm-background-surface-color-secondary: #17181a;
+  --ifm-background-color: #17181a !important;
+  --ifm-background-surface-color: #17181a !important;
+  --ifm-background-surface-color-secondary: #17181a !important;
   --ifm-navbar-background-color: #23272a;
 
   --ifm-heading-color: #ffffff;
@@ -80,6 +80,12 @@ details.customdetails {
   --docusaurus-details-decoration-color: #5865f2;
   background-color: inherit;
   border-color: #5865f2;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 code {

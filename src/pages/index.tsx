@@ -107,6 +107,7 @@ function Home() {
         </div>
       </header>
       <main>
+        <hr style={{'background-color': '#5865f2'}}/>
         {/* <div className="container">
             <div className={classnames(`${styles.pitch}`)}>
               <h1 className="text--center">Sentry's Features</h1>
@@ -144,17 +145,19 @@ function Home() {
         <section className={styles.CallToActionSection}>
           <div className="container">
             <div className="row">
-              <div className={classnames('col')}>
-                <h1 id="call-to-action">What are you waiting for?</h1>
+              <div className="center">
+                <h1 id="call-to-action" style={{'textAlign': 'center'}}>What are you waiting for?</h1>
               </div>
-              <div className={classnames('col', styles.CallToAction)}>
+            </div>
+            <div className="row">
+              <div className={classnames('center', styles.CallToAction)}>
                 <div>
                   <a href="https://r.nziie.xyz/sentry-invite">
                     <img className={styles.CallToActionImg} src="img/logo.png" alt="Sentry Logo" />
                   </a>
                 </div>
                 <Link
-                  className={classnames('button button--success button--lg')}
+                  className={classnames('button button--outline button--primary button--lg')}
                   to="https://r.nziie.xyz/sentry-invite">
                   Invite Sentry
                 </Link>
