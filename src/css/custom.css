@@ -48,7 +48,7 @@
   --ifm-background-color: #17181a !important;
   --ifm-background-surface-color: #17181a !important;
   --ifm-background-surface-color-secondary: #1b1d1f !important;
-  --ifm-navbar-background-color: #23272a;
+  --ifm-navbar-background-color: #141618;
 
   --ifm-heading-color: #ffffff;
   --ifm-hero-text-color: #ffffff;
@@ -75,7 +75,7 @@
 } 
 
 .footer.footer--dark {
-  --ifm-footer-background-color: #17181a;
+  --ifm-footer-background-color: #0f1011;
 }
 
 .button {
