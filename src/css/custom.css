@@ -60,6 +60,15 @@
   --ifm-code-font-size: 95%;
 }
 
+:where(.button--dark) {
+  --ifm-button-background-color: var(--ifm-background-surface-color-secondary);
+}
+
+:where(.button--dark):hover {
+  --ifm-button-color: white;
+
+}
+
 .footer.footer--dark {
   --ifm-footer-background-color: #17181a;
 }

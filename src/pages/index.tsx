@@ -159,7 +159,7 @@ function Home() {
                 </div>
                 <Link
                   className={classnames(
-                    'button button--outline button--secondary button--lg'
+                    'button button--dark button--lg'
                   )}
                   to="https://r.nziie.xyz/sentry-invite">
                   Invite
