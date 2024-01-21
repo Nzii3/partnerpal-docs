@@ -11,7 +11,7 @@ Sentry uses a strict permits only system for use of it's commands. Therefore, if
 
 
 ### Configuring {#configuring-permits}
-1. Use the `>settings` command and navigate to the **Permits** tab using the dropdown. 
+1. Use the `>settings` command and navigate to the <span class="badge badge--primary">Permits</span> tab using the dropdown. 
 
 2. On the permits page, you will see all pre-defined levels of permits, their (customizable) assigned permissions, and their (customizable) assigned roles. Any role listed attached to a permit can use any command that requires the attached permisisons. The permissions should be pretty straight forward to what commands they relate to. 
 
