@@ -14,33 +14,6 @@ Use the `>setup` command command to have an easy setup solution. Sentry will mak
 	</DiscordMessage>
 </DiscordMessages>
 
-<span class="badge badge--primary">Primary</span>
-
-<div class="card-demo">
-  <div class="card">
-    <div class="card__header">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src="https://avatars1.githubusercontent.com/u/4060187?s=460&v=4" />
-        <div class="avatar__intro">
-          <div class="avatar__name">Jared Palmer</div>
-          <small class="avatar__subtitle">
-            Consultant, Speaker, Lead Engineer
-          </small>
-        </div>
-      </div>
-    </div>
-    <div class="card__footer">
-      <div class="button-group button-group--block">
-        <button class="button button--secondary">Like</button>
-        <button class="button button--secondary">Comment</button>
-        <button class="button button--secondary">Share</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 ## Permits (Permissions) {#permissions}
 Permits allow you to confidently manage permissions for specific roles. You can assign permissions to a permit and assign roles to said permit. 
 
