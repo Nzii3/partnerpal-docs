@@ -5,7 +5,9 @@ sidebar_position: 2
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-# Team
+# 
+
+## Core Team
 
 <div class="card-demo">
   <div class="card">
@@ -31,3 +33,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     </div>
   </div>
 </div>
+
+## Support Team
+
+## Beta Testers
