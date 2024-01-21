@@ -5,6 +5,8 @@ description: Getting started with Sentry.
 
 import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";
 import Badge from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/css/custom.css';
 
 ## Setup
 Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
