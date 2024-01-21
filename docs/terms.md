@@ -1,6 +1,6 @@
 ---
 title: 📄 Terms of Service
-sidebar_position: 4
+sidebar_position: 5
 ---
 # Terms of Service
 
