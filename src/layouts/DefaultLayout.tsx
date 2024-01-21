@@ -3,7 +3,8 @@ import Head from '@docusaurus/Head';
 import Layout from "@theme/Layout";
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-// import '../scss/main.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/custom.css';
 
 interface DefaultLayoutProps {
     title?: string,
