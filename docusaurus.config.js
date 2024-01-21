@@ -61,6 +61,40 @@ module.exports = {
               label: 'Documentation',
               to: 'getting-started',
             },
+            {
+              label: 'Troubleshooting',
+              to: 'troubleshooting',
+            },
+          ],
+        },
+        {
+          title: 'Useful Links',
+          items: [
+            {
+              label: 'Invite',
+              to: 'invite',
+            },
+            {
+              label: 'Team',
+              to: 'team',
+            },
+            {
+              label: 'Premium',
+              to: 'premium',
+            },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Terms of Service',
+              to: 'terms',
+            },
+            {
+              label: 'Privacy Policy',
+              to: 'privacy-policy',
+            },
           ],
         },
       ],

@@ -72,6 +72,7 @@ a {
 
 :where(.button--dark) {
   --ifm-button-background-color: var(--ifm-background-surface-color-secondary);
+  --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
 }
 
 :where(.button--dark):hover {
@@ -80,12 +81,10 @@ a {
   --ifm-button-background-color: transparent;
 }
 
-:where(.button--dark):focus {
-  --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
-} 
+
 
 .footer.footer--dark {
-  --ifm-footer-background-color: #0f1011;
+  --ifm-footer-background-color: var(--ifm-navbar-background-color);
 }
 
 .button {
