@@ -4,6 +4,7 @@ description: Getting started with Sentry.
 ---
 
 import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";
+import Badge from 'react-bootstrap/Button';
 
 ## Setup
 Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
@@ -13,6 +14,8 @@ Use the `>setup` command command to have an easy setup solution. Sentry will mak
 		Hello! I'm <DiscordMention>Sentry</DiscordMention>!
 	</DiscordMessage>
 </DiscordMessages>
+
+<Badge bg="primary">New</Badge>
 
 ## Permits (Permissions) {#permissions}
 Permits allow you to confidently manage permissions for specific roles. You can assign permissions to a permit and assign roles to said permit. 
