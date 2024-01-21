@@ -9,6 +9,7 @@ import { Button } from 'react-bootstrap';
 
 <Button variant="primary">Primary</Button>{' '}
 
+
 ## Setup
 Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
 

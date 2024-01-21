@@ -3,8 +3,6 @@ title: 👑 Team
 sidebar_position: 2
 ---
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 # Team
 
 <div class="card-demo">
@@ -24,7 +22,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     </div>
     <div class="card__footer">
       <div class="button-group button-group--block">
-        <a class="button button--primary" href="#url"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+        <a class="button button--primary" href="#url">Discord</a>
         <a class="button button--primary" href="#url">Primary</a>
       </div>
     </div>

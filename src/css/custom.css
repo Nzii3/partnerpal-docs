@@ -62,6 +62,14 @@
   --ifm-code-font-size: 95%;
 }
 
+/* body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-hero-text-color);
+}
+a {
+  text-decoration: none;
+} */
+
 :where(.button--dark) {
   --ifm-button-background-color: var(--ifm-background-surface-color-secondary);
 }
