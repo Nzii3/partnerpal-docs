@@ -6,7 +6,7 @@ title: ⚠️ Advertisement Moderation
 You may be asking, **what is advertisement modertaion**? Well, Sentry's advertisement moderation system — an extension of [warning severities](/commands.md#moderation-commands) — gives advertising servers a way to neatly moderate mis-placed advertisements in their server. With that said, if you have an advertising category you'd like to moderate, this is the system for you!
 
 ## Setup
-1. Go to the **Advertisement Moderation** section in the [!badge variant="primary" text="&gt;settings"] command.
+1. Go to the **Advertisement Moderation** section in the `>settings` command.
 
 2. Click the **Channel** button and set a channel where a message will be sent containing all the informatiom about the advertisement warning. Information includes channel (from the `?channel` flag), reason, total ad warnings issued against them, and more. This message is customizable via the **Edit Message Template** button.
 

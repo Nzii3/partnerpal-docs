@@ -50,7 +50,7 @@
   --ifm-background-color: #17181a !important;
   --ifm-background-surface-color: #17181a !important;
   --ifm-background-surface-color-secondary: #1b1d1f !important;
-  --ifm-navbar-background-color: #141618;
+  --ifm-navbar-background-color: #141618 !important;
 
   --ifm-heading-color: #ffffff;
   --ifm-hero-text-color: #ffffff;
