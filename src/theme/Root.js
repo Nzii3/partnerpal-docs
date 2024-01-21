@@ -5,7 +5,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-// import the custom styles to overwrite some of the the bootstrap css
 import '../css/custom.css';
 import DefaultLayout from "../layouts/DefaultLayout";
 

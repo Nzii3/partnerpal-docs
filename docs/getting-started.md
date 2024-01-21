@@ -5,9 +5,6 @@ sidebar_position: 1
 ---
 
 import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";
-import { Button } from 'react-bootstrap';
-
-<Button variant="primary">Primary</Button>{' '}
 
 
 ## Setup
