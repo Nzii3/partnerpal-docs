@@ -139,6 +139,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 ## Staff Team
 
+<div class="card-demo">
+  <div class="card">
+    <div class="card__header">
+      <div class="avatar">
+        <img
+          class="avatar__photo"
+          src="https://cdn.discordapp.com/avatars/1080547347538378885/b5cb5069742f6bc7412d18118f0d7790.png?size=1024" />
+        <div class="avatar__intro">
+          <div class="avatar__name">FarfousSK (farfous1)</div>
+          <small class="avatar__subtitle">
+            Support Team, Beta Tester
+          </small>
+          <em></em>
+        </div>
+      </div>
+    </div>
+    <div class="card__footer">
+      <div class="button-group button-group--block">
+        <a class="button button--primary" href="https://discordlookup.com/user/1080547347538378885"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+      </div>
+    </div>
+  </div>
+</div>
 <br/>
 <div class="card-demo">
   <div class="card">
@@ -146,19 +169,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
       <div class="avatar">
         <img
           class="avatar__photo"
-          src="https://cdn.discordapp.com/avatars/768864212859879434/a_c66fe6ad006206bd9420894144f9a373.gif?size=1024" />
+          src="https://cdn.discordapp.com/avatars/1060951966496325713/171c613fa148a6dd0da631883521a496.webp?size=2048" />
         <div class="avatar__intro">
-          <div class="avatar__name">Tommi (dr.tommi.cr)</div>
+          <div class="avatar__name">spekboi (speakermanboi)</div>
           <small class="avatar__subtitle">
-            Core Team Member
+            Support Team, Beta Tester
           </small>
-        <em></em>
+        <em>do or do not there is not try -Yoda</em>
         </div>
       </div>
     </div>
     <div class="card__footer">
       <div class="button-group button-group--block">
-        <a class="button button--primary" href="https://discordlookup.com/user/768864212859879434"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+        <a class="button button--primary" href="https://discordlookup.com/user/1060951966496325713"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+        <a class="button button--primary" style={{'backgroundColor': '#1DB954', 'borderColor': '#1DB954'}} href="https://youtube.com/@Locksonroblox?si=QZMfk5yxx8pBiV5A"><FontAwesomeIcon icon="fa-brands fa-spotify" /> Spotify</a>
+        <a class="button button--primary" style={{'backgroundColor': '#ff0000', 'borderColor': '#ff0000'}} href="https://youtube.com/@Locksonroblox?si=QZMfk5yxx8pBiV5A"><FontAwesomeIcon icon="fa-brands fa-youtube" /> YouTube</a>
       </div>
     </div>
   </div>
