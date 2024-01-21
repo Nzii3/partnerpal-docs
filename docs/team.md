@@ -19,9 +19,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/766099886214742046/a_72bcb22144d5ff40994d841acbb9ee44.gif?size=1024" />
         <div class="avatar__intro">
           <div class="avatar__name">Spirit (therealspirit)</div>
-          <small class="avatar__subtitle">
-            Owner
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Owner</span>
+          </div>
         <em></em>
         </div>
       </div>
@@ -44,9 +44,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/891020275582378034/c40c0207add3fedb2e2a7856ecaf4fee.png?size=1024" />
         <div class="avatar__intro">
           <div class="avatar__name">Deannn (_deannn_)</div>
-          <small class="avatar__subtitle">
-            Co-Owner
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Co-Owner</span>
+          </div>
         <em></em>
         </div>
       </div>
@@ -68,9 +68,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/550476809280421903/5df5fb484f2a00793771514a0a120ff1.png?size=1024" />
         <div class="avatar__intro">
           <div class="avatar__name">vNziie-- (nziie.dev)</div>
-          <small class="avatar__subtitle">
-            Head Developer
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Head Developer</span>
+          </div>
         <em>"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." - notsorealsanta</em>
         </div>
       </div>
@@ -95,9 +95,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/768864212859879434/a_c66fe6ad006206bd9420894144f9a373.gif?size=1024" />
         <div class="avatar__intro">
           <div class="avatar__name">Tommi (dr.tommi.cr)</div>
-          <small class="avatar__subtitle">
-            Core Team Member
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Core Team Member</span>
+          </div>
         <em></em>
         </div>
       </div>
@@ -119,9 +119,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/856176853719187506/b8c835a2c8598bd98b72653c0fe21dad.png?size=1024" />
         <div class="avatar__intro">
           <div class="avatar__name">Jon (jonfirexbox)</div>
-          <small class="avatar__subtitle">
-            Core Team Member
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Core Team Member</span>
+          </div>
         <em></em>
         </div>
       </div>
@@ -148,9 +148,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/1080547347538378885/b5cb5069742f6bc7412d18118f0d7790.png?size=1024" />
         <div class="avatar__intro">
           <div class="avatar__name">FarfousSK (farfous1)</div>
-          <small class="avatar__subtitle">
-            Support Team, Beta Tester
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Support Team</span> <span class="badge badge--grey">Beta Tester</span>
+          </div>
           <em></em>
         </div>
       </div>
@@ -172,9 +172,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           src="https://cdn.discordapp.com/avatars/1060951966496325713/171c613fa148a6dd0da631883521a496.webp?size=2048" />
         <div class="avatar__intro">
           <div class="avatar__name">spekboi (speakermanboi)</div>
-          <small class="avatar__subtitle">
-            Support Team, Beta Tester
-          </small>
+          <div class="avatar__subtitle">
+            <span class="badge badge--grey">Support Team</span> <span class="badge badge--grey">Beta Tester</span>
+          </div>
         <em>do or do not there is not try -Yoda</em>
         </div>
       </div>

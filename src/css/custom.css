@@ -75,6 +75,14 @@ a {
   --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
 }
 
+:where(.badge--grey) {
+  --ifm-badge-background-color: #595b69;
+  --ifm-badge-border-radius: 5px;
+  font-size: 75% !important;
+  font-weight: var(--ifm-font-weight-base) !important;
+  margin-right: 5px !important;
+}
+
 :where(.button--dark):hover {
   --ifm-button-color: white;
   --ifm-button-border-color: var(--ifm-background-surface-color-secondary);
