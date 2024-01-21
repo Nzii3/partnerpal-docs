@@ -1,6 +1,7 @@
 ---
 title: 🚀 Getting Started
 description: Getting started with Sentry.
+sidebar_position: 1
 ---
 
 import { DiscordMessages, DiscordMessage, DiscordMention} from "@skyra/discord-components-react";

@@ -1,5 +1,6 @@
 ---
 title: 👑 Team
+sidebar_position: 2
 ---
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
