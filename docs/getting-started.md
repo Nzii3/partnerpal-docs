@@ -14,9 +14,6 @@ Use the `>setup` command command to have an easy setup solution. Sentry will mak
 	<DiscordMessage author="Sentry" avatar="https://r.nziie.xyz/sentry-logo" roleColor="#5865f2" bot verified>
 		Hello! I'm <DiscordMention>Sentry</DiscordMention>!
 	</DiscordMessage>
-  	<DiscordMessage profile="nziie" >
-		Hello! I'm <DiscordMention>Sentry</DiscordMention>!
-	</DiscordMessage>
 </DiscordMessages>
 
 ## Permits (Permissions) {#permissions}
