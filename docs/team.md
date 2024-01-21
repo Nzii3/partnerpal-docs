@@ -2,6 +2,8 @@
 title: 👑 Team
 ---
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 # Team
 
 <div class="card-demo">
@@ -21,7 +23,7 @@ title: 👑 Team
     </div>
     <div class="card__footer">
       <div class="button-group button-group--block">
-        <a class="button button--primary" href="#url">Primary</a>
+        <a class="button button--primary" href="#url"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
         <a class="button button--primary" href="#url">Primary</a>
       </div>
     </div>
