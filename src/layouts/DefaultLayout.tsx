@@ -3,7 +3,6 @@ import Head from '@docusaurus/Head';
 import Layout from "@theme/Layout";
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/custom.css';
 
 interface DefaultLayoutProps {
