@@ -7,6 +7,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import '../css/custom.css';
 import DefaultLayout from "../layouts/DefaultLayout";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faGlobe)
 
 // Default implementation, that you can customize
 export default function Root({children}) {

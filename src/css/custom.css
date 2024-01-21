@@ -275,7 +275,7 @@ code {
   border-radius: 3px !important;
 }
 
-.box {
+/* .box {
   display: inline-block;
   border: 1.80px solid rgba(0, 0, 0, 0.589);
   padding-top: 0.75rem;
@@ -326,4 +326,4 @@ code {
 
 .box.blue {
   border: 1.75px solid #1c97da;
-}
+} */
