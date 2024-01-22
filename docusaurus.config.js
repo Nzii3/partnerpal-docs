@@ -47,7 +47,7 @@ module.exports = {
         {to: 'support', label: 'Support', position: 'right'},
       ],
     },
-    scripts: ['/src/scripts/discord-components.js']
+    scripts: ['/src/scripts/discord-components.js'],
     footer: {
       style: 'dark',
       links: [
