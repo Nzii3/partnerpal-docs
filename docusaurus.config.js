@@ -10,7 +10,7 @@ module.exports = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   trailingSlash: false,
-  organizationName: 'nziiedev',
+  organizationName: 'Nzii3',
   projectName: 'sentry-docs',
   deploymentBranch:"main",
   themeConfig: {
