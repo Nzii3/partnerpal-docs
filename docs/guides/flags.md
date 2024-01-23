@@ -4,6 +4,7 @@ title: 🚩 Flags
 
 import Link from '@docusaurus/Link';
 import classnames from 'classnames';
+import { DiscordTime, DiscordBold, DiscordItalic, DiscordUnderlined, DiscordInlineCode, DiscordSpoiler, DiscordQuote, DiscordActionRow, DiscordAttachment, DiscordAttachments, DiscordButton, DiscordCommand, DiscordEmbed, DiscordEmbedField, DiscordEmbedFields, DiscordEmbedDescription, DiscordEmbedFooter, DiscordInvite, DiscordMention, DiscordMessage, DiscordMessages, DiscordReaction, DiscordReactions, DiscordReply, DiscordSystemMessage, DiscordTenorVideo, DiscordThread, DiscordThreadMessage, DiscordCustomEmoji } from "@skyra/discord-components-react";
 
 # Command Argument Flags
 Sentry employs argument flags for precise argument slicing without truncating content. This manual includes explanations for each flag, it's acceptable inputs, and instructions on usage. In the event of a missing required flag for a command, the bot will prompt you to supply it in the usage before proceeding with the command's execution.

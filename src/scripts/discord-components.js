@@ -1,10 +1,8 @@
-// Your other JavaScript code can go here
-
 window.$discordMessage = {
   profiles: {
     sentry: {
       author: 'Sentry',
-      avatar: '../../static/img/logo',
+      avatar: 'https://r.nziie.xyz/sentry-logo',
       bot: true,
       verified: true,
     },
@@ -14,5 +12,3 @@ window.$discordMessage = {
     }
   }
 };
-
-// More of your JavaScript code can follow
