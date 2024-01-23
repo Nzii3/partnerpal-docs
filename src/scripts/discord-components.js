@@ -2,7 +2,7 @@ window.$discordMessage = {
   profiles: {
     sentry: {
       author: 'Sentry',
-      avatar: 'https://r.nziie.xyz/sentry-logo',
+      avatar: '../../static/img/logo',
       bot: true,
       verified: true,
     },
