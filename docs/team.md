@@ -151,13 +151,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           <div class="avatar__subtitle">
             <span class="badge badge--grey">Support Team</span> <span class="badge badge--grey">Beta Tester</span>
           </div>
-          <em></em>
+          <em>If losing makes the person stronger, the reader of this quote had to be the strongest person ever existed</em>
         </div>
       </div>
     </div>
     <div class="card__footer">
       <div class="button-group button-group--block">
         <a class="button button--primary" href="https://discordlookup.com/user/1080547347538378885"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+        <a class="button button--primary" style={{'backgroundColor': '#1DB954', 'borderColor': '#1DB954'}} href="https://open.spotify.com/user/31fb52q7e3or7aqm4xpea3lcbgoa"><FontAwesomeIcon icon="fa-brands fa-spotify" /> Spotify</a>
       </div>
     </div>
   </div>
@@ -182,7 +183,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     <div class="card__footer">
       <div class="button-group button-group--block">
         <a class="button button--primary" href="https://discordlookup.com/user/1060951966496325713"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
-        <a class="button button--primary" style={{'backgroundColor': '#1DB954', 'borderColor': '#1DB954'}} href="https://youtube.com/@Locksonroblox?si=QZMfk5yxx8pBiV5A"><FontAwesomeIcon icon="fa-brands fa-spotify" /> Spotify</a>
         <a class="button button--primary" style={{'backgroundColor': '#ff0000', 'borderColor': '#ff0000'}} href="https://youtube.com/@Locksonroblox?si=QZMfk5yxx8pBiV5A"><FontAwesomeIcon icon="fa-brands fa-youtube" /> YouTube</a>
       </div>
     </div>
