@@ -47,9 +47,9 @@ You can employ buttons and the **Toggle Role** action to manage self roles. By d
 ### Creating Verification
 Yup! A simple verification system is achievable with the custom buttons on template messages. To do so, create a custom button with the **Toggle Role** action. The bot will toggle the role on the user when they click on the button. You can also add an action to send a template only they can see, known as a hidden/ephemeral message. That way, you can say the user was verified and provide any information they need to get started in your server.
 
-!!!
+:::warning
 If you do not provide a message to send after a role is added, removed, or toggled, the bot will display a message with what role was changed, removing the unresponded interaction instance.
-!!!
+:::
 
 ## Webhooks
 You have the capability to utilize webhooks for further customization of message templates. The bot can dispatch messages with any webhook in the server, provided it has the **Manage Webhooks** permission.
