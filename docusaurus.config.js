@@ -27,7 +27,6 @@ module.exports = {
         autoCollapseCategories: true,
       },
     },
-    image: 'img/logo.png',
     metadata: [
       {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot, application bot, modmail bot, discord modmail'},
       {name: 'twitter:card', content: 'summary'},
