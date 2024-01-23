@@ -83,6 +83,14 @@ a {
   margin-right: 5px !important;
 }
 
+:where(.badge--blurple-outline) {
+  --ifm-badge-background-color: none;
+  --ifm-badge-border-radius: 5px;
+  font-weight: var(--ifm-font-weight-base) !important;
+  margin-right: 5px !important;
+  --ifm-badge-border-color: #5865f2;
+}
+
 :where(.button--dark):hover {
   --ifm-button-color: white;
   --ifm-button-border-color: var(--ifm-background-surface-color-secondary);

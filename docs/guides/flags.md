@@ -11,10 +11,10 @@ Sentry employs argument flags for precise argument slicing without truncating co
 
 Name | Description | Accepted Values | Example
 --- | --- | --- | --- |
-`?reason` or `?r` | The desired reason for the moderation action, can be edited in `>case`'s `Edit` button | Any string of text, links are accepted | `>warn @user ?r Spamming commands in general` 
-`?time` or `?t` | Duration for the action, available for `>warn` and `>mute` | <Link className={classnames("button button--outline button--primary button--small")} to="/time-arguments">Time Arguments Guide</Link> | `>mute @user ?r Excessive spam ?t 12h`<br/><small>Mutes for 12 hours</small>
-`?p` | Proof for the moderation action - such as an image link, can be edited in `>case`'s `Edit` button | Any string of text, links are accepted | `>ban @user ?r DM advertising ?p example.com/image.png`
-`?severity` or `?s` | The severity of the warning, available for `>warn`. See <Link className={classnames("button button--outline button--primary button--small")} to="/punishments">Custom Punishments</Link>. | `low`, `medium` or `high` | `>warn @user ?r Message spam ?s medium` 
+`?reason` or `?r` | The desired reason for the moderation action, can be edited in `>case`'s `Edit` button | Any string of text, links are accepted | <DiscordMessages><DiscordMessage>&gt;warn <DiscordMention>vNziie--</DiscordMention> ?r Spamming</DiscordMessage></DiscordMessages>
+`?time` or `?t` | Duration for the action, available for `>warn` and `>mute` | <Link className={classnames("button button--outline button--primary button--small")} to="/time-arguments">Time Arguments Guide</Link> | <DiscordMessages><DiscordMessage>&gt;warn <DiscordMention>vNziie--</DiscordMention> ?r Spamming ?t 12h</DiscordMessage></DiscordMessages>
+`?p` | Proof for the moderation action - such as an image link, can be edited in `>case`'s `Edit` button | Any string of text, links are accepted | <DiscordMessages><DiscordMessage>&gt;warn <DiscordMention>vNziie--</DiscordMention> ?r Spamming ?p https://nziie.xyz/video</DiscordMessage></DiscordMessages>
+`?severity` or `?s` | The severity of the warning, available for `>warn`. See <Link className={classnames("button button--outline button--primary button--small")} to="/punishments">Custom Punishments</Link>. | `low`, `medium` or `high` | <DiscordMessages><DiscordMessage>&gt;warn <DiscordMention>vNziie--</DiscordMention> ?r Spamming ?s medium</DiscordMessage></DiscordMessages>
 
 :::info
 Every flag not listed here accepts a normal text string.
