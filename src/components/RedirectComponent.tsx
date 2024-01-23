@@ -12,9 +12,7 @@ const RedirectComponent: React.FC<RedirectComponentProps> = ({ url }) => {
 
   // You can render a message or loading indicator here if needed
   return (
-    <h2 className='center' style={{ textAlign: 'center' }}>
-      Redirecting to <a href={url}>{url}</a>...
-    </h2>
+    null
   );
 };
 
