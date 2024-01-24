@@ -30,7 +30,7 @@ module.exports = {
     image: 'https://r.nziie.xyz/sentry-banner',
     metadata: [
       {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot, application bot, modmail bot, discord modmail'},
-      {name: 'twitter:card', content: 'summary'},
+      {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'theme-color', content: '#5865f2'},
     ],
     navbar: {
