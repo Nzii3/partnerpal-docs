@@ -21,7 +21,7 @@ Released [1/4/2024](./updates.md)
   </TabItem>
   <TabItem value="fixed" label="Fixed">
     - Cooldown times not showing correctly on mobile, moved away from Discord timestamps
-    - Fixed rare bugs
+    - Fixed minor bugs
   </TabItem>
 </Tabs>
 
