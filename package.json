@@ -9,7 +9,7 @@
     "prestart": "",
     "start": "docusaurus start",
     "prebuild": "",
-    "build": "docusaurus build",
+    "build": "docusaurus build && echo 'sentry.nziie.xyz' > CNAME",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
   },
