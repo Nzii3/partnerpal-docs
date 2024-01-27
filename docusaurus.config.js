@@ -4,7 +4,7 @@ const {components} = require('./src/plugins/components');
 module.exports = {
   title: 'Sentry',
   tagline: 'A customizable Discord bot made to help you manage your server.',
-  url: 'https://sentry.nziie.xyz',
+  url: 'https://sentrydiscord.xyz',
   baseUrl: '/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
