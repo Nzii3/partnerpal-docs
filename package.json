@@ -1,5 +1,5 @@
 {
-  "name": "sentry-docs-new",
+  "name": "sentry-docs",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -9,7 +9,7 @@
     "prestart": "",
     "start": "docusaurus start",
     "prebuild": "",
-    "build": "docusaurus build && echo 'sentry.nziie.xyz' > build/CNAME",
+    "build": "docusaurus build && echo 'sentrydiscord.xyz' > build/CNAME",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
   },
