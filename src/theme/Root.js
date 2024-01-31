@@ -9,9 +9,10 @@ import '../css/custom.css';
 import DefaultLayout from "../layouts/DefaultLayout";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe, faGem } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(fab, faGlobe)
+library.add(fab, faGlobe, faGem)
 
 // Default implementation, that you can customize
 export default function Root({children}) {

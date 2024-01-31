@@ -4,7 +4,7 @@ import styles from './premium.module.css';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 function Community() {
@@ -28,7 +28,7 @@ function Community() {
             <div className="col text--center padding-vert--md">
               <div className="card">
                 <div className="card__header">
-                  <i className={classnames(styles.icon, styles.discord)}></i>
+                <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
                 </div>
                 <div className="card__body">
                   <p>Join the official Sentry discord server</p>
