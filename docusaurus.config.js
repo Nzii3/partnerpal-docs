@@ -40,9 +40,9 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        {to: 'getting-started', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'premium', label: 'Premium', position: 'right'},
+        {to: '/', label: 'Home', position: 'left'},
+        {to: 'updates', label: 'Updates', position: 'left'},
+        {to: 'premium-info', label: 'Premium', position: 'right'},
         {to: 'support', label: 'Support', position: 'right'},
       ],
     },
