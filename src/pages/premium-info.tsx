@@ -24,7 +24,7 @@ function Community() {
       </header>
       <main>
         <div className="container">
-          <h2 id="custom-branding">Custom Branding</h2>
+          <h2 className="text--center" id="custom-branding">Custom Branding</h2>
           <div className="row margin-vert--lg">
             <div className="col text--center padding-vert--md">
               <div className="card">
