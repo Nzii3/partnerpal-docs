@@ -48,7 +48,7 @@ Usage | Description | Aliases | Has slash command?
 `>case <case_id>` | Get a specific moderation case via ID | - | ❌
 `>mod-stats` | View moderator statistics for the entire server | `modstats` | ❌
 
-## Application Commands
+## Applications Commands
 :::tip
 If you're on mobile, you can scroll horizontally to view the entire table.
 :::
@@ -58,3 +58,16 @@ Usage   | Description | Aliases | Has slash command?
 `>applications edit [name]` | Edit an existing application in the server, shows the application editor. If a name isn't provided, a menu will popup with names of all existing applications. | `apps edit` | ❌
 `>applications delete [name]` | Delete an existing application in the server. If a name isn't provided, a menu will popup with names of all existing applications. | `apps delete` | ❌
 `>apply [name]` | Submit (apply for) an application in the server. If a name isn't provided, a menu will popup with names of all enabled applications. | - | ❌
+
+
+## Custom Branding Commands
+:::tip
+If you're on mobile, you can scroll horizontally to view the entire table.
+
+[Check out custom branding!](/premium-info#custom-branding)
+:::
+Usage   | Description | Aliases | Has slash command?
+--- | --- | --- | --- |
+`>name <text>` | Edit the custom branded Sentry bot's name, changes on the [Developer Portal](https://discord.dev) | - | ❌
+`>avatar` | Change the custom branded Sentry bot's name | - | ❌
+`>status <type> <text>` | Change the status of the bot, status types include: `watching`, `playing`, `listening` | - | ❌
