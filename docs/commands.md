@@ -8,7 +8,7 @@ import classnames from 'classnames';
 
 # Commands List
 
-Sentry's prefix can be customizable via <Link className={classnames("button button--outline button--primary button--small")} to="premium">Custom Punishments</Link>. The bot also listens to it's mention as a prefix, so you can do `@Sentry prefix` to view the server's prefix or even `@Sentry help` to view the help command.
+Sentry's prefix can be customizable via <Link className={classnames("button button--outline button--primary button--small")} to="premium">Premium</Link>. The bot also listens to it's mention as a prefix, so you can do `@Sentry prefix` to view the server's prefix or even `@Sentry help` to view the help command.
 
 :::tip
 An argument surrounded in paranthesis: `(@member)` means the argument is **optional**
