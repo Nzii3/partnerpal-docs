@@ -1,0 +1,11 @@
+.content {
+  font-size: 85%;
+  text-align: center;
+  padding: 5px 0;
+  color: white;
+}
+
+.content a {
+  color: inherit;
+  text-decoration: underline;
+}

@@ -1,6 +1,6 @@
 ---
 title: ✉️ Modmail
-sidebar_class_name: status beta
+sidebar_class_name: status new
 ---
 import Link from '@docusaurus/Link';
 import classnames from 'classnames';
