@@ -100,13 +100,13 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Sentry Core Team`,
     },
-  //   announcementBar: {
-  //     id: 'announcementbar',
-  //     content: `<strong>NEW RELEASE:</strong> <a href="/guides/modmail">Sentry's New Modmail System</a>!`,
-  //     backgroundColor: 'var(--ifm-color-primary)',
-  //     textColor: 'var(--ifm-primary-color)',
-  //     isCloseable: true,
-  //   },
+    announcementBar: {
+      id: 'announcementbar',
+      content: `<strong>NEW RELEASE:</strong> <a href="/guides/modmail">Sentry's New Modmail System</a>!`,
+      backgroundColor: 'var(--ifm-color-primary)',
+      textColor: 'var(--ifm-primary-color)',
+      isCloseable: true,
+    },
   },
 
   presets: [
