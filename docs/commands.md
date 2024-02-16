@@ -59,6 +59,19 @@ Usage   | Description | Aliases | Has slash command?
 `>applications delete [name]` | Delete an existing application in the server. If a name isn't provided, a menu will popup with names of all existing applications. | `apps delete` | ❌
 `>apply [name]` | Submit (apply for) an application in the server. If a name isn't provided, a menu will popup with names of all enabled applications. | - | ❌
 
+## Modmail Thread Commands {#modmail-commands}
+:::tip
+If you're on mobile, you can scroll horizontally to view the entire table.
+:::
+Usage   | Description | Aliases | Has slash command?
+--- | --- | --- | --- |
+`>reply <message>` | Reply to a modmail thread, attachments are supported by attaching a file to your message when using the command. | `r`, `send` | ❌
+`>anonreply <message>` | Reply to a modmail thread anonymously, which hides the author of the message for the user. | `ar`, `areply`, `asend` | ❌
+`>close ?t 12h ?r Have a great day!` | Close a modmail thread, with an optional time to wait using [flags](/guides/flags.md). | - | ❌
+`>snippets [name]` | View all snippets, or provide a `name` to use a snippet | `s` | ❌
+`>snippets add <name> <content>` | Create a new snippet with a name and a value, only server managers can do this | `s` | ❌
+`>snippets remove <name> ` | Deletes an existing snippet via name, only server managers can do this | `s` | ❌
+
 
 ## Custom Branding Commands
 :::tip

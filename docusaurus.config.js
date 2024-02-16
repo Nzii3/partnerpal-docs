@@ -107,7 +107,7 @@ module.exports = {
   //     textColor: 'var(--ifm-primary-color)',
   //     isCloseable: true,
   //   },
-  // },
+  },
 
   presets: [
     [
