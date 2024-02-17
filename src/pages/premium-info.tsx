@@ -14,7 +14,7 @@ function Community() {
     <Layout title="Premium" description="Check out Sentry+ and some options to better enhance your server">
       <header className="hero">
         <div className="container text--center">
-          <h1>Sentry+ (Premium)</h1>
+          <h1 className='gold-cycle'>Sentry+ (Premium)</h1>
           <div className="hero--subtitle">
           <p>
           </p>

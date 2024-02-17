@@ -2,7 +2,6 @@
 title: 🔒 Privacy Policy
 sidebar_position: 6
 ---
-# Privacy Policy
 
 Our development team built the Sentry [Discord](https://discord.com/) bot application as a **free** service. This SERVICE is provided by the our development team at no cost and is intended for use as is.
 

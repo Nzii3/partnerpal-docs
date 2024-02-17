@@ -275,6 +275,38 @@ code {
   padding-left: 3px !important;
   padding-right: 3px !important;
   border-radius: 3px !important;
+  background-color: #1e1f22 !important;
+}
+
+hr {
+  background-color: #404348;
+  opacity: 25%;
+  height: 5px;
+}
+
+blockquote::before {
+  display: none
+}
+
+.gold-cycle {
+  animation: gold-color-change 1s infinite alternate;
+}
+
+@keyframes gold-color-change {
+  0% {color: #FFD700}
+  50% {color: #DAA520}
+  100% {color: #B8860B}
+}
+
+.blurple-cycle {
+  animation: blurple-color-change 1s infinite alternate;
+}
+
+@keyframes blurple-color-change {
+  0% {color: #4c5af6}
+  25% {color: #5865f2}
+  50% {color: #6672f2}
+  100% {color: rgb(134, 143, 247)}
 }
 
 /* .box {

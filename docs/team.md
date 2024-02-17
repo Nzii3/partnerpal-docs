@@ -6,7 +6,7 @@ description: Welcome to our staff team page, where we take pride in introducing 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-# 
+<br/>
 
 ## Core Team
 

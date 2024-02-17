@@ -6,8 +6,6 @@ title: 📢 Updates
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Updates
-
 Check out our [Clickup Roadmap](https://sharing.clickup.com/36041748/l/h/6-900902486041-1/c850810baf29f0f) to see new and upcoming features!
 
 ## v1.1.0 <span className="badge badge--primary">LATEST</span> {#v1.1.0}

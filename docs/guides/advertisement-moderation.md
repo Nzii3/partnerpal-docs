@@ -1,7 +1,6 @@
 ---
 title: 🚧 Advertisement Moderation
 ---
-# Advertisement Moderation
 
 You may be asking, **what is advertisement modertaion**? Well, Sentry's advertisement moderation system — an extension of [warning severities](/commands.md#moderation-commands) — gives advertising servers a way to neatly moderate mis-placed advertisements in their server. With that said, if you have an advertising category you'd like to moderate, this is the system for you!
 

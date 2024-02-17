@@ -11,8 +11,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 Use the `>setup` command command to have an easy setup solution. Sentry will make sure it has the correct permissions in the server to operate. The bot will alert you of any permissions that are missing.
 
 <DiscordMessages>
-	<DiscordMessage author="Sentry" avatar="https://r.nziie.xyz/sentry-logo" roleColor="#5865f2" bot verified>
-		Hello! I'm <DiscordMention>Sentry</DiscordMention>!
+	<DiscordMessage profile="sentry">
+		Hello, I'm <DiscordMention>Sentry</DiscordMention>! Feel free to use <code>>help</code> for more information about my features.
 	</DiscordMessage>
 </DiscordMessages>
 
@@ -34,29 +34,29 @@ Sentry uses a strict permits only system for use of it's commands. Therefore, if
 <details className="customdetails">
 <summary>🔑 Permissions Key</summary>
 
-:::info
-In order of how dangerous the permission can be in a server if given to the wrong person.
-:::
+**Manage Cases** <span style={{'color': '#5865f2'}}>→</span> `>case` and `>cases`. Can edit/delete cases.
 
-**Manage Cases** --> `>case` and `>cases`. Can edit/delete cases.
+**Manage Application Responses** <span style={{'color': '#5865f2'}}>→</span> *Can accept and deny application responses.*
 
-**Manage Appeals** --> *Can accept, deny, and ignore appeals, full control over appeals. This permission is not used since the Appeals System is coming soon.*
+**Manage Modmail Threads** <span style={{'color': '#5865f2'}}>→</span> `>reply`, `>areply`, `>close`, *and thread related commands. Can manage modmail threads.*
 
-**Warn Members** --> `>warn`, can use any severity
+**Manage Appeals** <span style={{'color': '#5865f2'}}>→</span> *Can accept, deny, and ignore appeals, full control over appeals.* **(coming soon)**
 
-**Mute Members** --> `>mute` and `>unmute`.
+**Warn Members** <span style={{'color': '#5865f2'}}>→</span> `>warn`, can use any severity
 
-**Kick Members** --> `>kick`
+**Mute Members** <span style={{'color': '#5865f2'}}>→</span> `>mute` and `>unmute`.
 
-**Ban Members** --> `>ban` and `>unban`
+**Kick Members** <span style={{'color': '#5865f2'}}>→</span> `>kick`
 
-**Manage Lockdown** --> `>lockdown` (coming soon)
+**Ban Members** <span style={{'color': '#5865f2'}}>→</span> `>ban` and `>unban`
 
-**Full Control** --> *This is a dangerous to give, as they have full control over settings and all commands.*
+**Manage Lockdown** <span style={{'color': '#5865f2'}}>→</span> `>lockdown` **(coming soon)**
+
+**Full Control** <span style={{'color': '#5865f2'}}>→</span> *This is a dangerous to give, as they have full control over settings and all commands.*
 
 </details>
 
----
+## Success
 
 :::success 
 Your server is now setup with **Sentry**! If you would like to view Sentry's list of commands, you can do so on the 

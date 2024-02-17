@@ -2,6 +2,10 @@ const path = require('path');
 const {components} = require('./src/plugins/components');
 
 module.exports = {
+  scripts: [{
+    src: '/discord-components.config.js',
+    async: false
+  }],
   title: 'Sentry',
   tagline: 'A customizable Discord bot made to help you manage your server.',
   url: 'https://sentrydiscord.xyz',
@@ -46,7 +50,6 @@ module.exports = {
         {to: 'support', label: 'Support', position: 'right'},
       ],
     },
-    scripts: ['./src/scripts/discord-components.js'],
     footer: {
       style: 'dark',
       links: [
@@ -102,7 +105,7 @@ module.exports = {
     },
     announcementBar: {
       id: 'announcementbar',
-      content: `<strong>NEW RELEASE:</strong> <a href="/guides/modmail">Sentry's New Modmail System</a>!`,
+      content: `<strong>UPCOMING RELEASE:</strong> <a href="/guides/modmail">Sentry's New Modmail System</a>!`,
       backgroundColor: 'var(--ifm-color-primary)',
       textColor: 'var(--ifm-primary-color)',
       isCloseable: true,

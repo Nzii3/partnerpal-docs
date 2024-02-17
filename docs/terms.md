@@ -2,7 +2,6 @@
 title: 📄 Terms of Service
 sidebar_position: 5
 ---
-# Terms of Service
 
 :::warning
 By utilizing our bot or any other services provided by us, you hereby acknowledge and agree to abide by the following terms. In the event that you do not consent to these terms, your server will no longer be permitted to utilize the bot or any associated services. Please note that these terms are subject to change without prior notification.
