@@ -102,7 +102,7 @@ Here is what log entries look like.
     </DiscordEmbed>
       <DiscordAttachments slot="components">
         <DiscordActionRow>
-          <DiscordButton url="https://nziie.xyz/video">
+          <DiscordButton url="https://logs.discord.website/logs/Z3zKzD4K2AkGJo3cis82rX">
             See more...
           </DiscordButton>
         </DiscordActionRow>
