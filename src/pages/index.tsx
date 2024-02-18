@@ -108,7 +108,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <hr style={{'backgroundColor': '#5865f2'}}/>
+        <hr style={{'backgroundColor': '#5865f2', 'opacity': '90%'}}/>
         {/* <div className="container">
             <div className={classnames(`${styles.pitch}`)}>
               <h1 className="text--center">Sentry's Features</h1>

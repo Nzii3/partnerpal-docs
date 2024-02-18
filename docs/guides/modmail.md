@@ -45,6 +45,20 @@ Snippets consist of predefined text templates identified by a name and correspon
   </DiscordMessage>
 </DiscordMessages>
 
+## Deleting Replies {#deleting-replies}
+To eliminate any users thinking they were ghost direct messaged by Sentry, deleted modmail replies will look like the following in the user's DMs, but the message will be deleted in the thread channel.
+
+<DiscordMessages>
+<DiscordMessage profile="sentry">
+  <DiscordEmbed slot="embeds" color="#2ecc71" author-name="Anonymous Reply" author-image="https://cdn.discordapp.com/embed/avatars/0.png" footer-text="Anonymous Staff Reply">
+  <DiscordEmbedDescription slot="description"><DiscordItalic>This message has been deleted by the server's staff team, and cannot be viewed.</DiscordItalic></DiscordEmbedDescription>
+  <DiscordEmbedFooter slot="footer" footer-image="https://r.nziie.xyz/sentry-logo">
+  <p style={{'padding-top': '20px'}}>From Sentry Support • Today at 10:01 AM</p>
+  </DiscordEmbedFooter>
+  </DiscordEmbed>
+  </DiscordMessage>
+</DiscordMessages>
+
 ## Logging
 Sentry will log all closed modmail threads if a channel is set for the **Log Channel** configuration in the `>settings` then **Modmail** menu. Web-logging uses [logs.discord.website](https://logs.discord.website) for Discord-like log visualizing.
 
