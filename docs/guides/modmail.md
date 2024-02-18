@@ -12,10 +12,6 @@ Introducing **Sentry's innovative public modmail system** – a dynamic feature 
 
 What sets Sentry's Modmail System apart is its commitment to providing a support solution that is both reliable and customizable. Users can expect a dependable support experience with features that can be tailored to meet the unique needs of each server or community. This level of flexibility ensures that server moderators can efficiently manage and address user queries, issues, and feedback.
 
-:::warning
-This documentation is currently unfinished
-:::
-
 ## Commands
 
 Usage   | Description | Aliases | Has slash command?
