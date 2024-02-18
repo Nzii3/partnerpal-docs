@@ -23,6 +23,8 @@ Usage   | Description | Aliases | Has slash command?
 `>reply <message>` | Reply to a modmail thread, attachments are supported by attaching a file to your message when using the command. | `r`, `send` | ❌
 `>anonreply <message>` | Reply to a modmail thread anonymously, which hides the author of the message for the user. | `ar`, `areply`, `asend` | ❌
 `>close ?t 12h ?r Have a great day!` | Close a modmail thread, with an optional time to wait using [flags](/guides/flags.md). | - | ❌
+`>edit <message>` | Edit a modmail message sent from staff. **Can only be used in a thread channel.** | - | ❌
+`>delete [message]` | Delete a modmail message sent from staff. **Can only be used in a thread channel.** | - | ❌
 `>snippets [name]` | View all snippets, or provide a `name` to use a snippet | `s` | ❌
 `>snippets add <name> <content>` | Create a new snippet with a name and a value, only server managers can do this | - | ❌
 `>snippets remove <name> ` | Deletes an existing snippet via name, only server managers can do this | - | ❌
@@ -44,6 +46,57 @@ Snippets consist of predefined text templates identified by a name and correspon
     Anonymous Staff Reply • Today at 10:00 AM
     </DiscordEmbedFooter>
     </DiscordEmbed>
+  </DiscordMessage>
+</DiscordMessages>
+
+## Logging
+Sentry will log all closed modmail threads if a channel is set for the **Log Channel** configuration in the `>settings` then **Modmail** menu. Web-logging uses [logs.discord.website](https://logs.discord.website) for Discord-like log visualizing.
+
+Here is what log entries look like.
+
+<DiscordMessages>
+  <DiscordMessage profile="sentry">
+    <DiscordEmbed slot="embeds" color="#5865f2">
+      <DiscordEmbedDescription slot="description">
+        <h2>Thread Log</h2>
+        <ul style={{ paddingInlineStart: '15px', marginBlockStart: '0.5em'}}>
+				  <li>
+					<div>
+					<span></span>
+					</div>
+					<div>Recipient: <DiscordBold>@user5104</DiscordBold> (107054734753837880)</div>
+					</li>
+				  <li>
+					<div>
+					<span></span>
+					</div>
+					<div>Created: <DiscordTime>February 17, 2024 10:03 AM</DiscordTime> (<DiscordTime>7 minutes ago</DiscordTime>)</div>
+					</li>
+				  <li>
+					<div>
+					<span></span>
+					</div>
+					<div>Topic: how do i apply for staff?</div>
+					</li>
+				  <li>
+					<div>
+					<span></span>
+					</div>
+					<div>Messages: <DiscordBold>2</DiscordBold></div>
+					</li>
+				</ul>
+      </DiscordEmbedDescription>
+    <DiscordEmbedFooter slot="footer" footer-image="https://r.nziie.xyz/icon">
+    <p style={{'padding-top': '20px'}}> Thread closed by @nziie.dev (550476809280421903) • Today at 10:03 AM</p>
+    </DiscordEmbedFooter>
+    </DiscordEmbed>
+      <DiscordAttachments slot="components">
+        <DiscordActionRow>
+          <DiscordButton url="https://nziie.xyz/video">
+            See more...
+          </DiscordButton>
+        </DiscordActionRow>
+      </DiscordAttachments>
   </DiscordMessage>
 </DiscordMessages>
 
@@ -133,3 +186,6 @@ i would like to apply for staff
   </DiscordAttachments>
 </DiscordMessage>
 </DiscordMessages>
+
+## Settings
+![](https://cdn.nziie.xyz/u/files/NrDQy8A0Qr8m)
