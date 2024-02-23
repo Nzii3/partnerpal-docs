@@ -20,12 +20,12 @@ If you're on mobile, you can scroll horizontally to view the entire table.
 :::
 Usage   | Description | Aliases | Has slash command?
 --- | --- | --- | --- |
-`>help` | Shows Sentry's help menu | - | ✅
+`>help` | Shows Sentry's help menu | - | ✅ <mention>/help</mention>
 `>prefix` | See the server's current prefix | - | ❌
 `>settings` | Setup the bot and manage server-specific settings | `config`, `s` | ❌
 `>stats` | Gets statistics for the bot | - | ❌
 `>shards` | Bot shards and there respective info | - | ❌
-`>premium` | See information about Sentry+ (premium) | `upgrade` | ✅
+`>premium` | See information about Sentry+ (premium) | `upgrade` | ✅ <mention>/premium</mention>
 
 :::info
 Sentry uses custom argument flags to slice arguments, allowing you to confidently enter arguments without content getting cut off. We recommend you read our <Link className={classnames("button button--outline button--primary button--small")} to="flags">Argument Flags Guide</Link> for help and examples.
