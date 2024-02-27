@@ -66,6 +66,8 @@ Usage   | Description | Aliases | Has slash command?
 `>reply <message>` | Reply to a modmail thread, attachments are supported by attaching a file to your message when using the command. | `r`, `send` | ❌
 `>anonreply <message>` | Reply to a modmail thread anonymously, which hides the author of the message for the user. | `ar`, `areply`, `asend` | ❌
 `>close ?t 12h ?r Have a great day!` | Close a modmail thread, with an optional time to wait using [flags](/guides/flags.md). | - | ❌
+`>move <category_name>` | Move a modmail thread to a different category or department. | `transfer` | ❌
+`>alert [user]` | Get notified of the next thread message recieved, or optionally attach a user to the notifications list. | `notify` | ❌
 `>snippets [name]` | View all snippets, or provide a `name` to use a snippet | `s` | ❌
 `>snippets add <name> <content>` | Create a new snippet with a name and a value, only server managers can do this | `s` | ❌
 `>snippets remove <name> ` | Deletes an existing snippet via name, only server managers can do this | `s` | ❌

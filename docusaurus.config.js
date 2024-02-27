@@ -105,10 +105,9 @@ module.exports = {
     },
     announcementBar: {
       id: 'announcementbar',
-      content: `<strong>NEW RELEASE:</strong> <a href="/guides/modmail">Sentry's New Modmail System (v1.2.0)</a>!`,
+      content: `<strong>NEW RELEASE:</strong> <a href="/updates#v1.2.1">New Modmail Additions (v1.2.1)</a>!`,
       backgroundColor: 'var(--ifm-color-primary)',
       textColor: 'var(--ifm-primary-color)',
-      isCloseable: true,
     },
   },
 

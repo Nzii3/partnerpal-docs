@@ -8,7 +8,24 @@ import TabItem from '@theme/TabItem';
 
 Check out our [Clickup Roadmap](https://sharing.clickup.com/36041748/l/h/6-900902486041-1/c850810baf29f0f) to see new and upcoming features!
 
-## v1.2.0 <span className="badge badge--primary">LATEST</span> {#v1.2.0}
+## v1.2.1 <span className="badge badge--primary">LATEST</span> {#v1.2.1}
+Released [2/17/2024](./updates.md)
+
+<Tabs>
+  <TabItem value="added" label="Added (4)" default>
+  - [`>move` Modmail Command](./guides/modmail.md#commands) *(community suggested)*
+  - [`>alert` Modmail Command](./guides/modmail.md#commands)
+  - [A setting in `>settings` to have content at the top of a thread channel](./guides/modmail.md)
+  - [Message editing support in DMs](./guides/modmail.md)
+    - Users can edit their messages in DMs and it will show to staff
+  </TabItem>
+  <TabItem value="fixed" label="Fixed (2)">
+    - Modmail bugs
+    - Minor bugs
+  </TabItem>
+</Tabs>
+
+## v1.2.0
 Released [2/17/2024](./updates.md)
 
 <Tabs>
