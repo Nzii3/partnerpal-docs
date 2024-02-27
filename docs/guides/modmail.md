@@ -96,7 +96,7 @@ Here is what log entries look like.
 					</li>
 				</ul>
       </DiscordEmbedDescription>
-    <DiscordEmbedFooter slot="footer" footer-image="https://r.nziie.xyz/icon">
+    <DiscordEmbedFooter slot="footer" footer-image="https://r.nziie.xyz/logo">
     <p style={{'padding-top': '20px'}}> Thread closed by @nziie.dev (550476809280421903) • Today at 10:03 AM</p>
     </DiscordEmbedFooter>
     </DiscordEmbed>

@@ -25,7 +25,7 @@ Usage   | Description | Aliases | Has slash command?
 `>settings` | Setup the bot and manage server-specific settings | `config`, `s` | ❌
 `>stats` | Gets statistics for the bot | - | ❌
 `>shards` | Bot shards and there respective info | - | ❌
-`>premium` | See information about Sentry+ (premium) | `upgrade` | ✅ <mention>/premium</mention>
+`>premium` | See information about Sentry+ (premium) | `upgrade` | ✅ <mention>/premium`</mention>
 
 :::info
 Sentry uses custom argument flags to slice arguments, allowing you to confidently enter arguments without content getting cut off. We recommend you read our <Link className={classnames("button button--outline button--primary button--small")} to="flags">Argument Flags Guide</Link> for help and examples.
