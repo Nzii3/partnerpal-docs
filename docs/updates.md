@@ -8,7 +8,19 @@ import TabItem from '@theme/TabItem';
 
 Check out our [Clickup Roadmap](https://sharing.clickup.com/36041748/l/h/6-900902486041-1/c850810baf29f0f) to see new and upcoming features!
 
-## v1.2.1 <span className="badge badge--primary">LATEST</span> {#v1.2.1}
+## v1.2.2 <span className="badge badge--primary">LATEST</span> {#v1.2.2}
+Released [6/3/2024](./updates.md)
+
+<Tabs>
+  <TabItem value="added" label="Added (1)" default>
+  - `>ban` command will no longer ban any user that has administrator permissions, for safety reasons
+  </TabItem>
+  <TabItem value="fixed" label="Fixed (2)">
+    - `>ban` command showing an error and not working
+  </TabItem>
+</Tabs>
+
+## v1.2.1 {#v1.2.1}
 Released [2/17/2024](./updates.md)
 
 <Tabs>
