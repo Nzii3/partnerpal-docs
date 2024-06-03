@@ -17,6 +17,7 @@ Released [6/3/2024](./updates.md)
   </TabItem>
   <TabItem value="fixed" label="Fixed (2)">
     - `>ban` command showing an error and not working
+    - `>ban` will now ask to force ban a user if they are not in the server again, previously errored on command
   </TabItem>
 </Tabs>
 
