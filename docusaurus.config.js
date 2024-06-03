@@ -105,7 +105,7 @@ module.exports = {
     },
     announcementBar: {
       id: 'announcementbar',
-      content: `<strong>NEW RELEASE:</strong> <a href="/updates#v1.2.1">New Modmail Additions (v1.2.1)</a>!`,
+      content: `<strong>NEW RELEASE:</strong> <a href="/updates#v1.2.2">Bug Fixes (v1.2.2)</a>!`,
       backgroundColor: 'var(--ifm-color-primary)',
       textColor: 'var(--ifm-primary-color)',
     },
