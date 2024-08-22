@@ -105,7 +105,7 @@ module.exports = {
     },
     announcementBar: {
       id: 'announcementbar',
-      content: `<strong>NEW RELEASE:</strong> <a href="/updates#v1.2.2">Bug Fixes (v1.2.2)</a>!`,
+      content: `<strong><a href="https://cdn.nziie.xyz/u/files/bx8zzJhnINyK">Read about the FUTURE of Sentry...</strong>`,
       backgroundColor: 'var(--ifm-color-primary)',
       textColor: 'var(--ifm-primary-color)',
     },
