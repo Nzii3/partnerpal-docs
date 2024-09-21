@@ -17,7 +17,7 @@ function Community() {
           <h1>Support</h1>
           <div className="hero--subtitle">
           <p>
-                Sentry offers a community and support staff ready to help with any questions, bugs, or feature requests. Give our <a href="https://r.nziie.xyz/sentry-support">support server</a> a shot for assistance. For inquries that may need faster and quicker attention (such as <strong>premium</strong>), feel free to create a ticket in the <code>#premium</code> channel. Support tickets are <strong>only for premium inquries!</strong>
+                Sentry offers a community and support staff ready to help with any questions, bugs, or feature requests. Give our <a href="https://discord.gg/8F6EHmNQc2">support server</a> a shot for assistance. For inquries that may need faster and quicker attention (such as <strong>premium</strong>), feel free to create a ticket in the <code>#premium</code> channel. Support tickets are <strong>only for premium inquries!</strong>
                 </p>
           </div>
           <img className={styles.headerImg} src="img/logo-yellow.png" />
