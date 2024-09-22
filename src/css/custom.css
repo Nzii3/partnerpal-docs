@@ -7,10 +7,10 @@
  @import '@fortawesome/fontawesome-free/css/all.css';
 
 :root {
-  --ifm-color-primary: #5865f2;
-  --ifm-color-primary-dark: #4554f7;
-  --ifm-color-primary-darker: #3d4cf7;
-  --ifm-color-primary-darkest: #3646f5;
+  --ifm-color-primary: #3498db;
+  --ifm-color-primary-dark: #2d73a1;
+  --ifm-color-primary-darker: #327dae;
+  --ifm-color-primary-darkest: #2a6287;
   --ifm-color-primary-light: #616ef8;
   --ifm-color-primary-lighter: #6d79fc;
   --ifm-color-primary-lightest: #7b86fa;
