@@ -6,9 +6,9 @@ module.exports = {
     src: '/discord-components.config.js',
     async: false
   }],
-  title: 'Sentry',
-  tagline: 'A customizable Discord bot made to help you manage your server.',
-  url: 'https://sentrydiscord.xyz',
+  title: 'PartnerPal',
+  tagline: 'A customizable Discord bot made to help you grow your server with ease.',
+  url: 'https://partnerpal.nziie.xyz',
   baseUrl: '/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
