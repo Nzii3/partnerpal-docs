@@ -108,7 +108,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <hr style={{'backgroundColor': '#5865f2', 'opacity': '90%'}}/>
+        <hr style={{'backgroundColor': '#327dae', 'opacity': '100%'}}/>
         {/* <div className="container">
             <div className={classnames(`${styles.pitch}`)}>
               <h1 className="text--center">Sentry's Features</h1>
@@ -132,7 +132,7 @@ function Home() {
                 </Tabs>
             </div>
         </div> */}
-        {features && features.length && (
+        {/* {features && features.length && (
           <section className={styles.features}>
             <div className="container margin-vert--md">
               <div className="row">
@@ -142,8 +142,8 @@ function Home() {
               </div>
             </div>
           </section>
-        )}
-        <section className={styles.CallToActionSection}>
+        )} */}
+        <section>
           <div className="container">
             <div className="row">
               <div className="center">
@@ -157,7 +157,7 @@ function Home() {
                 </div>
                 <Link
                   className={classnames(
-                    'button button--dark button--lg'
+                    'button button--outline button--primary button--lg'
                   )}
                   to="invite">
                   Invite

@@ -38,9 +38,9 @@ module.exports = {
       {name: 'theme-color', content: '#5865f2'},
     ],
     navbar: {
-      title: 'Sentry',
+      title: 'PartnerPal',
       logo: {
-        alt: 'Sentry Bot Icon',
+        alt: 'PartnerPal Icon',
         src: 'img/logo.png',
       },
       items: [

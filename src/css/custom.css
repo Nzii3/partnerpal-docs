@@ -11,9 +11,9 @@
   --ifm-color-primary-dark: #2d73a1;
   --ifm-color-primary-darker: #327dae;
   --ifm-color-primary-darkest: #2a6287;
-  --ifm-color-primary-light: #616ef8;
-  --ifm-color-primary-lighter: #6d79fc;
-  --ifm-color-primary-lightest: #7b86fa;
+  --ifm-color-primary-light: #3498db;
+  --ifm-color-primary-lighter: #53a8e1;
+  --ifm-color-primary-lightest: #85c9f7;
 
   --ifm-color-danger: #ff6188;
   --ifm-color-danger-dark: #ff3e6d;
@@ -299,14 +299,14 @@ blockquote::before {
 }
 
 .blurple-cycle {
-  animation: blurple-color-change 1s infinite alternate;
+  animation: blurple-color-change 2s infinite alternate;
 }
 
 @keyframes blurple-color-change {
-  0% {color: #4c5af6}
-  25% {color: #5865f2}
-  50% {color: #6672f2}
-  100% {color: rgb(134, 143, 247)}
+  0% {color: var(--ifm-color-primary-light)}
+  25% {color: var(--ifm-color-primary-lighter)}
+  50% {color: var(--ifm-color-primary-lightest)}
+  100% {color: var(--ifm-color-primary)}
 }
 
 /* .box {

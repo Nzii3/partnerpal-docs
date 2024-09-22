@@ -28,32 +28,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     </div>
     <div class="card__footer">
       <div class="button-group button-group--block">
-        <a class="button button--primary" href="https://discordlookup.com/user/766099886214742046"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+        <a class="button button--primary" href="https://discordlookup.com/user/1065745735552860252" style={{'backgroundColor': '#5865f2', 'borderColor': '#5865f2'}}><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
         <a class="button button--primary" style={{'backgroundColor': '#ff0000', 'borderColor': '#ff0000'}} href="https://www.youtube.com/channel/UC28OmyMp0bBhltjICW6iKSQ"><FontAwesomeIcon icon="fa-brands fa-youtube" /> YouTube</a>
-      </div>
-    </div>
-  </div>
-</div>
-<br/>
-<div class="card-demo">
-  <div class="card">
-    <div class="card__header">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src="https://cdn.discordapp.com/avatars/891020275582378034/c40c0207add3fedb2e2a7856ecaf4fee.png?size=1024" />
-        <div class="avatar__intro">
-          <div class="avatar__name">Deannn (_deannn_)</div>
-          <div class="avatar__subtitle">
-            <span class="badge badge--grey">Co-Owner</span>
-          </div>
-        <em></em>
-        </div>
-      </div>
-    </div>
-    <div class="card__footer">
-      <div class="button-group button-group--block">
-        <a class="button button--primary" href="https://discordlookup.com/user/891020275582378034"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
       </div>
     </div>
   </div>
@@ -77,60 +53,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     </div>
     <div class="card__footer">
       <div class="button-group button-group--block">
-        <a class="button button--primary" href="https://discordlookup.com/user/550476809280421903"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
+        <a class="button button--primary" href="https://discordlookup.com/user/550476809280421903" style={{'backgroundColor': '#5865f2', 'borderColor': '#5865f2'}}><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
         <a class="button button--primary" style={{'backgroundColor': '#1DA1F2', 'borderColor': '#1DA1F2'}} href="https://twitter.com/4realnziie"><FontAwesomeIcon icon="fa-brands fa-twitter" /> Twitter (X)</a>
         <a class="button button--primary" style={{'backgroundColor': '#24292e', 'borderColor': '#24292e'}} href="https://github.com/Nzii3"><FontAwesomeIcon icon="fa-brands fa-github" /> GitHub</a>
         <a class="button button--secondary" href="https://nziie.xyz"><FontAwesomeIcon icon="fa-solid fa-globe" /> Website</a>
-      </div>
-    </div>
-  </div>
-</div>
-<br/>
-<div class="card-demo">
-  <div class="card">
-    <div class="card__header">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src="https://cdn.discordapp.com/avatars/768864212859879434/a_c66fe6ad006206bd9420894144f9a373.gif?size=1024" />
-        <div class="avatar__intro">
-          <div class="avatar__name">Tommi (dr.tommi.cr)</div>
-          <div class="avatar__subtitle">
-            <span class="badge badge--grey">Core Team Member</span>
-          </div>
-        <em></em>
-        </div>
-      </div>
-    </div>
-    <div class="card__footer">
-      <div class="button-group button-group--block">
-        <a class="button button--primary" href="https://discordlookup.com/user/768864212859879434"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
-      </div>
-    </div>
-  </div>
-</div>
-<br/>
-<div class="card-demo">
-  <div class="card">
-    <div class="card__header">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src="https://cdn.discordapp.com/avatars/856176853719187506/b8c835a2c8598bd98b72653c0fe21dad.png?size=1024" />
-        <div class="avatar__intro">
-          <div class="avatar__name">Jon (jonfirexbox)</div>
-          <div class="avatar__subtitle">
-            <span class="badge badge--grey">Core Team Member</span>
-          </div>
-        <em></em>
-        </div>
-      </div>
-    </div>
-    <div class="card__footer">
-      <div class="button-group button-group--block">
-        <a class="button button--primary" href="https://discordlookup.com/user/856176853719187506"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
-        <a class="button button--primary" style={{'backgroundColor': '#ff0000', 'borderColor': '#ff0000'}} href="https://www.youtube.com/channel/UCkZHrZscTAsKuMoJ7QdPa5Q"><FontAwesomeIcon icon="fa-brands fa-youtube" /> YouTube</a>
-        <a class="button button--primary" style={{'backgroundColor': '#24292e', 'borderColor': '#24292e'}} href="https://github.com/kyro3400"><FontAwesomeIcon icon="fa-brands fa-github" /> GitHub</a>
       </div>
     </div>
   </div>
