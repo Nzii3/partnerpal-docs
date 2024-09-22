@@ -65,7 +65,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 ## Staff Team
 
-<div class="card-demo">
+<!-- <div class="card-demo">
   <div class="card">
     <div class="card__header">
       <div class="avatar">
@@ -88,8 +88,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
       </div>
     </div>
   </div>
-</div>
-<br/>
+</div> -->
+<!-- <br/>
 <div class="card-demo">
   <div class="card">
     <div class="card__header">
@@ -114,6 +114,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     </div>
   </div>
 </div>
-<br/>
+<br/> -->
 
 ## Beta Testers
