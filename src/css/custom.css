@@ -289,7 +289,7 @@ blockquote::before {
 }
 
 .gold-cycle {
-  animation: gold-color-change 1s infinite alternate;
+  animation: gold-color-change 1.5s infinite alternate;
 }
 
 @keyframes gold-color-change {

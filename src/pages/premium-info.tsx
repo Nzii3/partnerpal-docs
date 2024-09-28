@@ -38,6 +38,7 @@ function Community() {
                   <ul style={{'listStylePosition': 'inside'}}>
                   <li>Lower cooldowns (5 minutes instead of 10 minutes for <mention>/partner</mention>)</li>
                   <li>Partner with 10 servers at once every 30 minutes with <mention>/partner-mass</mention></li>
+                  <li>Increase character limit for advertisement, 4000 instead of 2000 (use <mention>/settings</mention>)</li>
                   <li>Customizable advertisement banner (stand out)</li>
                   <li>Customizable advertisement embed color (stand out)</li>
                   <li>7 custom button actions instead of 3</li>

@@ -31,11 +31,11 @@ module.exports = {
         autoCollapseCategories: true,
       },
     },
-    image: 'https://r.nziie.xyz/sentry-banner',
+    image: 'https://r.nziie.xyz/partnerpal-banner',
     metadata: [
-      {name: 'keywords', content: 'discord bot, moderation bot, discord moderation, discord multipurpose, multipurpose bot, application bot, modmail bot, discord modmail'},
+      {name: 'keywords', content: 'discord bot, growth bot, discord partnering, grow your discord server'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'theme-color', content: '#5865f2'},
+      {name: 'theme-color', content: '#3498db'},
     ],
     navbar: {
       title: 'PartnerPal',
@@ -46,7 +46,7 @@ module.exports = {
       items: [
         {to: '/', label: 'Home', position: 'left'},
         {to: 'updates', label: 'Updates', position: 'left'},
-        {to: 'premium-info', label: 'Premium', position: 'right'},
+        {to: 'premium-info', label: 'Premium', position: 'right', className: 'gold-cycle'},
         {to: 'support', label: 'Support', position: 'right'},
       ],
     },
@@ -101,7 +101,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sentry Core Team`,
+      copyright: `Copyright © ${new Date().getFullYear()} PartnerPal Core Team`,
     },
     announcementBar: {
       id: 'announcementbar',
