@@ -96,7 +96,7 @@ function Home() {
                   className={classnames(
                     'button button--outline button--primary button--lg'
                   )}
-                  to={useBaseUrl('/getting-started')}>
+                  to={useBaseUrl('/commands')}>
                   Get Started
                 </Link>
               </div>
