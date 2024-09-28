@@ -19,7 +19,7 @@ function Community() {
           <p>
           </p>
           </div>
-          <img className={classnames(styles.headerImg)} src="img/logo-yellow.png" />
+          <img className={classnames(styles.headerImg)} src="img/partnerpal-beta-icon.png" />
         </div>
       </header>
       <main>
