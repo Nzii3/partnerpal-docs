@@ -19,10 +19,10 @@ const DefaultLayout: React.FC<DefaultLayoutProps> = ({ title, description, child
         <>
             <Head>
                 <title>{ title } - { siteConfig.tagline }</title>
-                <meta name="description" content="Introducing Sentry: Your Multipurpose bot! Advanced commands, custom messages, custom punishments, applications, and customizable whitelists for enhanced control. Elevate your community with ease." />
-                <meta property="og:description" content="Introducing Sentry: Your Multipurpose bot! Advanced commands, custom messages, custom punishments, applications, and customizable whitelists for enhanced control. Elevate your community with ease." />
+                <meta name="description" content="Introducing PartnerPal: Effortlessly grow your Discord server while ensuring a natural, organic experience." />
+                <meta property="og:description" content="Introducing PartnerPal: Effortlessly grow your Discord server while ensuring a natural, organic experience." />
                 <meta property="og:title" content={ title } />
-                <meta name="theme-color" content="#5865f2" />
+                <meta name="theme-color" content="#3498db" />
             </Head>
             <Layout>
                 { children }
