@@ -14,7 +14,7 @@ function Community() {
     <Layout title="Premium" description="Check out Sentry+ and some options to better enhance your server">
       <header className="hero">
         <div className="container text--center">
-          <h1 className='gold-cycle'>Sentry+ (Premium)</h1>
+          <h1 className='gold-cycle'>PartnerPal Premium</h1>
           <div className="hero--subtitle">
           <p>
           </p>
@@ -32,20 +32,22 @@ function Community() {
                 <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
                 </div>
                 <div className="card__header">
-                <h2>Bronze (1.99€/month)</h2>
+                <h2>Bronze ($2.99/month)</h2>
                 </div>
                 <div className="card__body">
                   <ul style={{'listStylePosition': 'inside'}}>
-                  <li>Customizable server prefix</li>
-                  <li>Message customization for the advertisement moderation extension</li>
+                  <li>Lower cooldowns (5 minutes instead of 10 minutes for <code>/partner</code></li>
+                  <li>Partner with 10 servers at once every 30 minutes with <code>/partner-mass</code></li>
+                  <li>Customizable advertisement banner (stand out)</li>
+                  <li>Customizable advertisement embed color (stand out)</li>
                   <li>7 custom button actions instead of 3</li>
                   <li>7 custom menu option actions instead of 3</li>
-                  <li>Other increased rate limits</li>
+                  <li>Other increased limits</li>
                   <li><a href="/support">Premium support</a></li>
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="/bronze" className="button button--outline button--primary button--block">Purchase</Link>
+                  <Link to="/premium" className="button button--outline button--primary button--block">Purchase</Link>
                 </div>
               </div>
             </div>
