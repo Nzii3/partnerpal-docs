@@ -1,7 +1,6 @@
 ---
 title: 💬 Commands
 sidebar_position: 2
-unlisted: true
 ---
 
 import Link from '@docusaurus/Link';
