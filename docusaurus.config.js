@@ -46,7 +46,7 @@ module.exports = {
       items: [
         {to: '/', label: 'Home', position: 'left'},
         {to: 'updates', label: 'Updates', position: 'left'},
-        {to: 'premium-info', label: 'Premium', position: 'right', className: 'gold-cycle'},
+        {to: 'premium', label: 'Premium', position: 'right', className: 'gold-cycle'},
         {to: 'support', label: 'Support', position: 'right'},
       ],
     },
