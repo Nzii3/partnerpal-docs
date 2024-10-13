@@ -48,7 +48,7 @@ function Community() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="https://ko-fi.com/partnerpal/tiers" className="button button--outline button--primary button--block">Subscribe</Link>
+                  <Link to="https://partnerpal.mysellix.io/product/partnerpal-basic-premium-670c2a769fd31" className="button button--outline button--primary button--block">Subscribe</Link>
                 </div>
               </div>
             </div>
