@@ -48,7 +48,7 @@ function Community() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="" className="button button--outline button--primary button--block">Coming Soon</Link>
+                  <Link to="https://ko-fi.com/partnerpal" className="button button--outline button--primary button--block">Subscribe</Link>
                 </div>
               </div>
             </div>
