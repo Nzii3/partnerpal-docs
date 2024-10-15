@@ -39,7 +39,7 @@ function Community() {
                   <li>Lower cooldowns for commands</li>
                   <li>Partner with 5 servers at once every 45 minutes <strong>automatically</strong> with <mention>/partner-mass</mention> (turn on in <mention>/settings</mention>)</li>
                   <li>Increased character limit for advertisement, <strong>4,000</strong> instead of <strong>2,000</strong> (use <mention>/settings</mention>)</li>
-                  <li>Customizable advertisement banner (<strong>stand out more</strong>>)</li>
+                  <li>Customizable advertisement banner (<strong>stand out more</strong>)</li>
                   <li>Customizable advertisement embed color (<strong>stand out more</strong>)</li>
                   <li>7 custom button actions instead of 3</li>
                   <li>7 custom menu option actions instead of 3</li>
