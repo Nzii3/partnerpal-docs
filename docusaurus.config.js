@@ -103,12 +103,12 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} PartnerPal Core Team`,
     },
-    announcementBar: {
-      id: 'announcementbar',
-      content: `<strong><a href="https://cdn.nziie.xyz/u/files/bx8zzJhnINyK">Read about the FUTURE of Sentry...</strong>`,
-      backgroundColor: 'var(--ifm-color-danger-darkest)',
-      textColor: 'var(--ifm-primary-color)',
-    },
+    // announcementBar: {
+    //   id: 'announcementbar',
+    //   content: `<strong><a href="https://cdn.nziie.xyz/u/files/bx8zzJhnINyK">Read about the FUTURE of Sentry...</strong>`,
+    //   backgroundColor: 'var(--ifm-color-danger-darkest)',
+    //   textColor: 'var(--ifm-primary-color)',
+    // },
   },
 
   presets: [
