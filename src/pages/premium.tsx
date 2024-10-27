@@ -32,7 +32,7 @@ function Community() {
                 <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
                 </div>
                 <div className="card__header">
-                <h2>Basic ($2.99/month)</h2>
+                <h2>Basic ($3.99/month)</h2>
                 </div>
                 <div className="card__body">
                   <ul style={{'listStylePosition': 'inside'}}>
