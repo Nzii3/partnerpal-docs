@@ -22,6 +22,7 @@ By utilizing our bot or any other services provided by us, you hereby acknowledg
 
 ## Premium
 10. By purchasing premium, you agree to these terms, [Discord's Terms of Service](https://discord.com/terms), and [Discord's Community Guidelines](https://discord.com/guidelines).
+11. Under any cirumstance, we will not give refunds. **ALL SALES ARE FINAL**.
 
 :::danger
 *We reserve the right to terminate any server's premium status if you violate any of the terms or guidelines mentioned above.*
