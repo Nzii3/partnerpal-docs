@@ -1,6 +1,5 @@
 ---
 title: ✉️ Modmail
-sidebar_class_name: status new
 unlisted: true
 ---
 import Link from '@docusaurus/Link';

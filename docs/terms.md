@@ -1,8 +1,9 @@
 ---
 title: 📄 Terms of Service
 sidebar_position: 5
+sidebar_class_name: status updated
 ---
-
+# Terms of Service
 :::warning
 By utilizing our bot or any other services provided by us, you hereby acknowledge and agree to abide by the following terms. In the event that you do not consent to these terms, your server will no longer be permitted to utilize the bot or any associated services. Please note that these terms are subject to change without prior notification.
 :::
@@ -19,7 +20,7 @@ By utilizing our bot or any other services provided by us, you hereby acknowledg
 10. Our service prohibits any type of spam or misuse of said service, resulting in us taking action.
 
 
-# Premium
+## Premium
 10. By purchasing premium, you agree to these terms, [Discord's Terms of Service](https://discord.com/terms), and [Discord's Community Guidelines](https://discord.com/guidelines).
 
 :::danger

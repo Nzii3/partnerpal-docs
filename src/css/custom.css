@@ -215,7 +215,7 @@ html[data-theme='dark'] .DocSearch {
 }
 
 .status > .menu__link::after {
-  width: 45px;
+  width: 4.5rem;
   height: 20px;
   font-size: 13px;
   line-height: 20px;
@@ -232,6 +232,12 @@ html[data-theme='dark'] .DocSearch {
   content: "new";
   color: #ffffff;
   border-color: var(--ifm-color-primary-darker);
+}
+
+.updated > .menu__link::after {
+  content: "updated";
+  color: #ffffff;
+  border-color: #19a857;
 }
 
 .beta > .menu__link::after {
