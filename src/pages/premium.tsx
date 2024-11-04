@@ -106,3 +106,5 @@ function Community() {
     </Layout>
   );
 }
+
+export default Community;
