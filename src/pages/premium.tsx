@@ -51,6 +51,7 @@ function Community() {
                   <Link to="https://partnerpal.mysellix.io/product/partnerpal-basic-premium-670c2a769fd31" className="button button--outline button--primary button--block">Subscribe</Link>
                 </div>
               </div>
+              <br/>
               <div className="card">
                 <div className="card__header">
                 <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
@@ -75,6 +76,7 @@ function Community() {
                   <Link to="https://partnerpal.mysellix.io/product/partnerpal-basic-premium-670c2a769fd31" className="button button--outline button--primary button--block">Subscribe</Link>
                 </div>
               </div>
+              <br/>
               <div className="card">
                 <div className="card__header">
                 <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
