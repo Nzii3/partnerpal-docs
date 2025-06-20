@@ -73,7 +73,7 @@ function Community() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="https://buy.stripe.com/4gM8wQbm33OMcupapObjW00" className="button button--outline button--primary button--block">Subscribe</Link>
+                  <Link to="https://buy.stripe.com/4gM14o89R2KI7a5fK8bjW01" className="button button--outline button--primary button--block">Subscribe</Link>
                 </div>
               </div>
               <br/>
@@ -98,7 +98,7 @@ function Community() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="https://buy.stripe.com/4gM8wQbm33OMcupapObjW00" className="button button--outline button--primary button--block">Subscribe</Link>
+                  <Link to="https://buy.stripe.com/9B67sMahZ4SQ8e9gOcbjW02" className="button button--outline button--primary button--block">Subscribe</Link>
                 </div>
               </div>
             </div>
