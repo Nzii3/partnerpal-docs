@@ -57,7 +57,7 @@ function Community() {
                 <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
                 </div>
                 <div className="card__header">
-                <h2>3 Month Subscription ($10.99/month)</h2>
+                <h2>3 Month Subscription ($10.99/3 months)</h2>
                 </div>
                 <div className="card__body">
                   <ul style={{'listStylePosition': 'inside'}}>
@@ -82,7 +82,7 @@ function Community() {
                 <FontAwesomeIcon icon="fa-solid fa-gem" style={{'fontSize': '3em'}} bounce />
                 </div>
                 <div className="card__header">
-                <h2>1 Year Subscription ($36.99/month)</h2>
+                <h2>1 Year Subscription ($36.99/year)</h2>
                 </div>
                 <div className="card__body">
                   <ul style={{'listStylePosition': 'inside'}}>
