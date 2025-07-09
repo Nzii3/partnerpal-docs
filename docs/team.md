@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 <br/>
 
-## Core Team
+# Core Team
 
 <div class="card-demo">
   <div class="card">
@@ -16,9 +16,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
       <div class="avatar">
         <img
           class="avatar__photo"
-          src="https://cdn.discordapp.com/avatars/766099886214742046/a_72bcb22144d5ff40994d841acbb9ee44.gif?size=1024" />
+          src="https://cdn.discordapp.com/avatars/1065745735552860252/3a162556fb4dfa9f0c35fc2ddc774012.png?size=1024" />
         <div class="avatar__intro">
-          <div class="avatar__name">Spirit (therealspirit)</div>
+          <div class="avatar__name">Drain (xdrainx)</div>
           <div class="avatar__subtitle">
             <span class="badge badge--grey">Owner</span>
           </div>
@@ -43,7 +43,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
           class="avatar__photo"
           src="https://cdn.discordapp.com/avatars/550476809280421903/5df5fb484f2a00793771514a0a120ff1.png?size=1024" />
         <div class="avatar__intro">
-          <div class="avatar__name">vNziie-- (nziie.dev)</div>
+          <div class="avatar__name">Nzii3 (nziie3)</div>
           <div class="avatar__subtitle">
             <span class="badge badge--grey">Head Developer</span>
           </div>
@@ -63,7 +63,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 </div>
 <br/>
 
-## Staff Team
+# Staff Team
+*Vacant*
 
 <!-- <div class="card-demo">
   <div class="card">
@@ -116,4 +117,5 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 </div>
 <br/> -->
 
-## Beta Testers
+# Beta Testers
+*Vacant*
