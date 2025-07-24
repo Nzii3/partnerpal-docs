@@ -47,7 +47,7 @@ module.exports = {
         {to: '/', label: 'Home', position: 'left'},
         {to: 'updates', label: 'Updates', position: 'left'},
         {to: 'premium', label: 'Premium', position: 'right', className: 'gold-cycle'},
-        {href: 'https://help.nziie.xyz/t/partnerpal-support', label: 'Support', position: 'right'},
+        {to: 'support', label: 'Support', position: 'right'},
       ],
     },
     footer: {
@@ -58,7 +58,7 @@ module.exports = {
           items: [
             {
               label: 'Support',
-              href: 'https://help.nziie.xyz/t/partnerpal-support',
+              to: 'support',
             },
             {
               label: 'Documentation',
