@@ -15,6 +15,9 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to **configuration values** for more guild customization. This data is then later used for customize exclusively for your server. The information that we request will be retained by us and used as described in this privacy policy. **We do not share this data with any other project than ourselves.**
 
+### Opting-Out
+If you wojld like to opt-out of any data collection that is NOT required for the bot to operate in a server (ex. server settings and general server info), please don't hesitate tk reach out in our [support server](https://discord.gg/qh7YUKmN3w) **or** our [forum page](https://help.nziie.xyz/t/partnerpal-support) (main support method).
+
 ### Service Providers
 
 We may employ third-party companies and individuals due to the following reasons:
